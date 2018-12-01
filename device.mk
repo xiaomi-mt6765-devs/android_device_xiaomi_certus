@@ -201,6 +201,12 @@ PRODUCT_PACKAGES += \
     fstab.mt6765_ramdisk \
     ueventd.mt6765.rc
 
+# RCS
+PRODUCT_PACKAGES += \
+    com.android.ims.rcsmanager \
+    PresencePolling \
+    RcsService
+
 # Renderscript
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
