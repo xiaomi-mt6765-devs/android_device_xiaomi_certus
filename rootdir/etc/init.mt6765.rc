@@ -106,7 +106,7 @@ on charger
 
     start servicemanager
     start hwservicemanager
-    start light-hal-2-0
+    start vendor.light-hal-2-0
 
 on fs
     write /proc/bootprof "INIT:Mount_START"
