@@ -846,10 +846,6 @@ vendor/etc/permissions/pms_sysapp_removable_vendor_list.txt
 vendor/etc/powercontable.cfg
 vendor/etc/powerscntbl.cfg
 vendor/etc/power_whitelist_cfg.xml
-vendor/etc/rsc/cactus[op01]/ro.prop
-vendor/etc/rsc/cactus[op01]/rw.prop
-vendor/etc/rsc/cactus[op09]/ro.prop
-vendor/etc/rsc/cactus[op09]/rw.prop
 vendor/etc/security/cacerts_supl/111e6273.0
 vendor/etc/security/cacerts_supl/3ad48a91.0
 vendor/etc/security/cacerts_supl/7651b327.0
