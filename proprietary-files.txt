@@ -1073,9 +1073,6 @@ vendor/nvdata
 vendor/persist
 vendor/protect_f
 vendor/protect_s
-vendor/res/images/lcd_test_00.png
-vendor/res/images/lcd_test_01.png
-vendor/res/images/lcd_test_02.png
 vendor/thh/ta/08010203000000000000000000000000.ta
 vendor/thh/ta/14498ace2a8f11e880c8509a4c146f4c.ta
 vendor/thh/ta/3d08821c33a611e6a1fa089e01c83aa2.ta
