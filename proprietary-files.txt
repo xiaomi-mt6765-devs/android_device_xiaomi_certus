@@ -365,7 +365,6 @@ vendor/etc/camera/female_icon.png
 vendor/etc/camera/lf_facerank_model.bin
 vendor/etc/camera/male_bg.png
 vendor/etc/camera/male_icon.png
-vendor/etc/camera/Miui-Light.ttf
 vendor/etc/camera/score_bg.png
 vendor/etc/camera/score_icon.png
 vendor/etc/camera/sdm_ys_32p_120_21_5_perturb50.bin
@@ -814,7 +813,6 @@ vendor/etc/ipsec/ipsec.d/cacerts/VeriSignClass3G5.der
 vendor/etc/ipsec/ipsec.d/cacerts/VeriSignUniversalRootCertification.der
 vendor/etc/ipsec/ssl/openssl.cnf
 vendor/etc/ipsec/strongswan.conf
-vendor/etc/MIUI_Time.ttf
 vendor/etc/mmigroup/CommonParam.json
 vendor/etc/mmigroup/factoryInterfaceConfig.json
 vendor/etc/mmigroup/MainMenuConfig.json
