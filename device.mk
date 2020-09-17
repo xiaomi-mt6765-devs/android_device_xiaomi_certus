@@ -7,5 +7,8 @@
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/certus/certus-vendor.mk)
