@@ -876,6 +876,8 @@ on boot
     chmod 660 /dev/ttyGS1
     chown system radio /dev/ttyGS1
 
+    setprop init.svc.console stopped
+
 on property:ro.board.platform=mt6753
     chown system system /sys/devices/system/cpu/cpufreq/interactive/hispeed_freq
     chmod 0660 /sys/devices/system/cpu/cpufreq/interactive/hispeed_freq
