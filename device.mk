@@ -221,6 +221,11 @@ PRODUCT_PACKAGES += \
     android.hardware.radio@1.3.vendor \
     android.hardware.radio@1.4.vendor
 
+# RRO Overlay
+PRODUCT_PACKAGES += \
+    TetheringConfigOverlay \
+    WifiOverlay
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.basic
@@ -240,10 +245,6 @@ PRODUCT_PACKAGES += \
 
 # Shipping API Level
 PRODUCT_SHIPPING_API_LEVEL := 29
-
-# Tethering
-PRODUCT_PACKAGES += \
-    TetheringConfigOverlay
 
 # Thermal
 PRODUCT_PACKAGES += \
