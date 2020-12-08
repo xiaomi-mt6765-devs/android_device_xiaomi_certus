@@ -28,6 +28,12 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 1440
 TARGET_SCREEN_WIDTH := 720
 
+# Health
+PRODUCT_PACKAGES += \
+    android.hardware.health@2.1-impl \
+    android.hardware.health@2.1-impl.recovery \
+    android.hardware.health@2.1-service
+
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
