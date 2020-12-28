@@ -660,7 +660,6 @@ vendor/bin/bip
 vendor/bin/ccci_fsd
 vendor/bin/ccci_mdinit
 vendor/bin/ccci_rpcd
-vendor/bin/charge_logger
 vendor/bin/charon
 vendor/bin/dconfig
 vendor/bin/dtc_vendor

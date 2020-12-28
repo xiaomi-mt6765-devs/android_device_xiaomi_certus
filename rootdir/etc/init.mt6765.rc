@@ -231,9 +231,6 @@ on post-fs-data
 
     # create for muxd pts device node , to operate without root
     mkdir /dev/radio 0770 radio radio
-# Extb 57391 JIRA getian.wt 20190506 add charge_logger function
-    mkdir /data/vendor/charge_logger 0771 system system
-
 
 #DualCam
     mkdir /data/misc/camera 0771 root system
@@ -1072,13 +1069,6 @@ on property:sys.boot_completed=1 && property:ro.boot.atm=enable
     start meta_tst
     start loghidlvendorservice
     start loghidlsysservice
-
-# +Extb 57391 JIRA getian.wt 20190506 add charge_logger function
-service charge_logger /system/vendor/bin/charge_logger
-    class late_start
-    user root
-    group system wakelock
-# -Extb 57391 JIRA getian.wt 20190506 add charge_logger function
 
 # FPSGO FBT Game
 on init
