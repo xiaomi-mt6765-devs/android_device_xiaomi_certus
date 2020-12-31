@@ -610,9 +610,9 @@ vendor/lib64/libifcutils_mtk.so|1c7349f53461402e5114b4ef1e1b2ffffd8db631
 vendor/lib64/libmtcloader.so|1ed3d9e605b83705725b3ffb9cb7486b8484422b
 
 # WiFi
-vendor/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek
-vendor/bin/hw/hostapd
-vendor/bin/hw/wpa_supplicant
+vendor/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek|53982edba923c694daa070b6603645e601a36bd7
+vendor/bin/hw/hostapd|dd60f8e89893a8b84d713bc2c28fa402abee68f9
+vendor/bin/hw/wpa_supplicant|61889d495d581c0d2ce93650b2ed49a8e0036678
 vendor/bin/hostapd_cli
 vendor/bin/wlan_assistant
 vendor/bin/wmt_launcher
