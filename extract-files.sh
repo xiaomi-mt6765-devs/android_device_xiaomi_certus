@@ -66,6 +66,13 @@ function blob_fixup() {
             ;;
         vendor/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek)
             "${PATCHELF}" --replace-needed "libwifi-hal.so" "libwifi-hal-mtk.so" "${2}"
+            "${PATCHELF}" --add-needed "libcompiler_rt.so" "${2}"
+            ;;
+        vendor/bin/hw/hostapd)
+            "${PATCHELF}" --add-needed "libcompiler_rt.so" "${2}"
+            ;;
+        vendor/bin/hw/wpa_supplicant)
+            "${PATCHELF}" --add-needed "libcompiler_rt.so" "${2}"
             ;;
     esac
 }
