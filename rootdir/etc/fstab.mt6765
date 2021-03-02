@@ -1,6 +1,6 @@
 # Android fstab file.
 #<src>                                              <mnt_point>              <type>   <mnt_flags and options>                                                  <fs_mgr_flags>
-/dev/block/platform/bootdevice/by-name/system       /                        ext4     ro                                                                       wait,recoveryonly
+/dev/block/platform/bootdevice/by-name/system       /system                  ext4     ro                                                                       wait,recoveryonly
 /dev/block/platform/bootdevice/by-name/vendor       /vendor                  ext4     ro                                                                       wait,recoveryonly
 /dev/block/platform/bootdevice/by-name/vbmeta       /vbmeta                  emmc     defaults                                                                 defaults
 
