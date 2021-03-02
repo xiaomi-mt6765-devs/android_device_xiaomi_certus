@@ -1,5 +1,5 @@
 # System / Vendor
-/dev/block/platform/bootdevice/by-name/system   /        ext4 ro wait,recoveryonly
+/dev/block/platform/bootdevice/by-name/system   /system  ext4 ro wait,recoveryonly
 /dev/block/platform/bootdevice/by-name/vendor   /vendor  ext4 ro wait,recoveryonly
 
 # Userdata / Cache
