@@ -1,5 +1,8 @@
 # All blobs from cactus-user 9 PPR1.180610.011 V12.0.2.0.PCBCNXM release-keys, unless pinned
 
+# AEE
+vendor/lib/libaedv.so
+
 # Audio
 vendor/etc/diracmobile.config
 vendor/etc/diracvdd.bin
@@ -625,10 +628,6 @@ vendor/lib/vendor.xiaomi.hardware.mtdservice@1.2.so
 vendor/lib/vendor.xiaomi.hardware.vsimapp@1.0.so
 
 # Misc
-vendor/bin/aeev
-vendor/bin/aee_aedv
-vendor/bin/aee_archivev
-vendor/bin/aee_dumpstatev
 vendor/bin/atcid
 vendor/bin/audiocmdservice_atci
 vendor/bin/autobt
@@ -697,7 +696,6 @@ vendor/bin/wmt_launcher
 vendor/bin/wmt_loader
 vendor/bin/wmt_loopback
 vendor/etc/.tp/.ht120.mtc
-vendor/etc/aee-config
 vendor/etc/agps_profiles_conf2.xml
 vendor/etc/ams_aal_config.xml
 vendor/etc/aurisys_config.xml
@@ -721,7 +719,6 @@ vendor/etc/fts_lens_boe.ini
 vendor/etc/fts_ofilm_boe.ini
 vendor/etc/fts_ofilm_ebbg.ini
 vendor/etc/fts_ofilm_tima.ini
-vendor/etc/init/aee_aedv.rc
 vendor/etc/init/atcid.rc
 vendor/etc/init/audiocmdservice_atci.rc
 vendor/etc/init/bootperf.rc
@@ -876,7 +873,6 @@ vendor/lib/lib3a.lce.so
 vendor/lib/lib3a.log.so
 vendor/lib/libabfadp.so
 vendor/lib/libacdk.so
-vendor/lib/libaedv.so
 vendor/lib/libakl.so
 vendor/lib/libapmonitor_vendor.so
 vendor/lib/libasn1c_core_vendor.so
