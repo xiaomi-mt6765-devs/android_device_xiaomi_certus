@@ -1,5 +1,15 @@
 # All blobs from full_certus-userdebug-10-QP1A.190711.020-mp1V91561-test-keys, unless pinned
 
+# AEE
+vendor/lib/libaedv.so
+vendor/lib/libladder.so
+vendor/lib/libudf.so
+vendor/lib/libdirect-coredump.so
+vendor/lib64/libaedv.so
+vendor/lib64/libladder.so
+vendor/lib64/libudf.so
+vendor/lib64/libdirect-coredump.so
+
 # Audio
 vendor/lib/libaudiocompensationfilterc.so
 vendor/lib/libaudiocompensationfilter_vendor.so
@@ -638,11 +648,6 @@ vendor/lib64/hw/thermal.mt6765.so
 vendor/app/EmCamera/lib/arm64/libem_camera_jni.so
 vendor/app/SensorHub/lib/arm64/libem_sensor_jni.so
 -vendor/app/SensorHub/SensorHub.apk
-vendor/bin/aeev
-vendor/bin/aee_aedv
-vendor/bin/aee_aedv64
-vendor/bin/aee_archivev
-vendor/bin/aee_dumpstatev
 vendor/bin/atcid
 vendor/bin/atci_service
 vendor/bin/audiocmdservice_atci
@@ -723,7 +728,6 @@ vendor/bin/wmt_launcher
 vendor/bin/wmt_loader
 vendor/data/misc/pdc.txt
 vendor/etc/.tp/.ht120.mtc
-vendor/etc/aee-config
 vendor/etc/agps_profiles_conf2.xml
 vendor/etc/apdb/APDB_MT6765_S01__W2039
 vendor/etc/apdb/APDB_MT6765_S01__W2039_ENUM
@@ -740,8 +744,6 @@ vendor/etc/ecc_list_OP18.xml
 vendor/etc/ecc_list_OP20.xml
 vendor/etc/factory.ini
 vendor/etc/fstb.cfg
-vendor/etc/init/aee_aedv.rc
-vendor/etc/init/aee_aedv64.rc
 vendor/etc/init/atcid.rc
 vendor/etc/init/atci_service.rc
 vendor/etc/init/audiocmdservice_atci.rc
@@ -989,7 +991,6 @@ vendor/lib/hw/flp.default.so
 vendor/lib/hw/kmsetkey.default.so
 vendor/lib/hw/kmsetkey.mt6765.so
 vendor/lib/hw/libSoftGatekeeper.so
-vendor/lib/libaedv.so
 vendor/lib/libakl.so
 vendor/lib/libasn1c_core.so
 vendor/lib/libasn1c_mapi.so
@@ -1007,7 +1008,6 @@ vendor/lib/libcurl-ss.so
 vendor/lib/libcurl_xcap_md.so
 vendor/lib/libcustom_nvram.so
 vendor/lib/libcvsd_mtk.so
-vendor/lib/libdirect-coredump.so
 vendor/lib/libdpframework.so
 vendor/lib/libDR.so
 vendor/lib/libfgauge_gm30.so
@@ -1035,7 +1035,6 @@ vendor/lib/libjpeg-alpha-oal_vendor.so
 vendor/lib/libjpeg-alpha_vendor.so
 vendor/lib/libJpgDecPipe.so
 vendor/lib/libJpgEncPipe.so
-vendor/lib/libladder.so
 vendor/lib/libmemtrack_GL.so
 vendor/lib/libmhalImageCodec.so
 vendor/lib/libminiui.so
@@ -1102,7 +1101,6 @@ vendor/lib/libthha.so
 vendor/lib/libtqvalidate.so
 vendor/lib/libtranslator_mapi_v3.0.so
 vendor/lib/libtranslator_utils.so
-vendor/lib/libudf.so
 vendor/lib/libufwriter.so
 vendor/lib/libusc.so
 vendor/lib/libutinterface_custom_md.so
@@ -1164,7 +1162,6 @@ vendor/lib64/lib3a.log.so
 vendor/lib64/lib3a.n3d3a.so
 vendor/lib64/libabfadp.so
 vendor/lib64/libacdk.so
-vendor/lib64/libaedv.so
 vendor/lib64/libakl.so
 vendor/lib64/libasn1c_core.so
 vendor/lib64/libasn1c_mapi.so
@@ -1182,7 +1179,6 @@ vendor/lib64/libcurl-ss.so
 vendor/lib64/libcurl_xcap_md.so
 vendor/lib64/libcustom_nvram.so
 vendor/lib64/libcvsd_mtk.so
-vendor/lib64/libdirect-coredump.so
 vendor/lib64/libdpframework.so
 vendor/lib64/libeffecthal.base.so
 vendor/lib64/libem_camera_jni.so
@@ -1221,7 +1217,6 @@ vendor/lib64/libjpeg-alpha_vendor.so
 vendor/lib64/libJpgEncPipe.so
 vendor/lib64/libkmsetkey.so
 vendor/lib64/libksensor.so
-vendor/lib64/libladder.so
 vendor/lib64/liblpcnr.so
 vendor/lib64/libmemtrack_GL.so
 vendor/lib64/libmfllcore.so
@@ -1261,7 +1256,6 @@ vendor/lib64/libthha.so
 vendor/lib64/libtqvalidate.so
 vendor/lib64/libtranslator_mapi_v3.0.so
 vendor/lib64/libtranslator_utils.so
-vendor/lib64/libudf.so
 vendor/lib64/libufwriter.so
 vendor/lib64/libusc.so
 vendor/lib64/libutinterface_custom_md.so
