@@ -1,5 +1,14 @@
 # All blobs from full_certus-user-10-QP1A.190711.020-mp1V91221-test-keys, unless pinned
 
+# AEE
+vendor/lib/libladder.so
+vendor/lib/libudf.so
+vendor/lib/libdirect-coredump.so
+vendor/lib64/libaedv.so
+vendor/lib64/libladder.so
+vendor/lib64/libudf.so
+vendor/lib64/libdirect-coredump.so
+
 # Audio
 vendor/lib/libaudiocompensationfilterc.so
 vendor/lib/libaudiocompensationfilter_vendor.so
@@ -965,7 +974,6 @@ vendor/lib/libcurl-md.so
 vendor/lib/libcurl_xcap_md.so
 vendor/lib/libcustom_nvram.so
 vendor/lib/libcvsd_mtk.so
-vendor/lib/libdirect-coredump.so
 vendor/lib/libdpframework.so
 vendor/lib/libDR.so
 vendor/lib/libfgauge_gm30.so
@@ -992,7 +1000,6 @@ vendor/lib/libjpeg-alpha-oal_vendor.so
 vendor/lib/libjpeg-alpha_vendor.so
 vendor/lib/libJpgDecPipe.so
 vendor/lib/libJpgEncPipe.so
-vendor/lib/libladder.so
 vendor/lib/libmemtrack_GL.so
 vendor/lib/libmhalImageCodec.so
 vendor/lib/libminiui.so
@@ -1057,7 +1064,6 @@ vendor/lib/libthha.so
 vendor/lib/libtqvalidate.so
 vendor/lib/libtranslator_mapi_v3.0.so
 vendor/lib/libtranslator_utils.so
-vendor/lib/libudf.so
 vendor/lib/libufwriter.so
 vendor/lib/libusc.so
 vendor/lib/libutinterface_custom_md.so
@@ -1123,7 +1129,6 @@ vendor/lib64/libaal_key.so
 vendor/lib64/libaal_mtk.so
 vendor/lib64/libabfadp.so
 vendor/lib64/libacdk.so
-vendor/lib64/libaedv.so
 vendor/lib64/libakl.so
 vendor/lib64/libasn1c_core.so
 vendor/lib64/libasn1c_mapi.so
@@ -1141,7 +1146,6 @@ vendor/lib64/libcurl-md.so
 vendor/lib64/libcurl_xcap_md.so
 vendor/lib64/libcustom_nvram.so
 vendor/lib64/libcvsd_mtk.so
-vendor/lib64/libdirect-coredump.so
 vendor/lib64/libdpframework.so
 vendor/lib64/libeffecthal.base.so
 vendor/lib64/libem_camera_jni.so
@@ -1180,7 +1184,6 @@ vendor/lib64/libjpeg-alpha_vendor.so
 vendor/lib64/libJpgEncPipe.so
 vendor/lib64/libkmsetkey.so
 vendor/lib64/libksensor.so
-vendor/lib64/libladder.so
 vendor/lib64/liblpcnr.so
 vendor/lib64/libmemtrack_GL.so
 vendor/lib64/libmfllcore.so
@@ -1220,7 +1223,6 @@ vendor/lib64/libthha.so
 vendor/lib64/libtqvalidate.so
 vendor/lib64/libtranslator_mapi_v3.0.so
 vendor/lib64/libtranslator_utils.so
-vendor/lib64/libudf.so
 vendor/lib64/libufwriter.so
 vendor/lib64/libusc.so
 vendor/lib64/libutinterface_custom_md.so

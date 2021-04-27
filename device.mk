@@ -103,7 +103,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     factory_init.connectivity.rc \
     factory_init.rc \
-    init.aee.rc \
     init.ago.rc \
     init.connectivity.rc \
     init.modem.rc \
