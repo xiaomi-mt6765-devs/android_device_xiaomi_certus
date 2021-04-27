@@ -10,8 +10,6 @@ import /vendor/etc/init/trustonic.rc
 import ${ro.vendor.rc}init.nvdata.rc
 import /vendor/etc/init/microtrust.rc
 import /vendor/etc/init/trustkernel.rc
-import /vendor/etc/init/hw/init.aee.rc
-import /system/etc/init/hw/init.aee.rc
 import /vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc
 import /vendor/etc/init/android.hardware.boot@1.0-service.rc
 
