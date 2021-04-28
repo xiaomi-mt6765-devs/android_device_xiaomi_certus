@@ -102,6 +102,9 @@ BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 # SPL
 VENDOR_SECURITY_PATCH := 2019-03-05
 
+# SEPolicy
+include device/mediatek/sepolicy_vndr/SEPolicy.mk
+
 # VINTF
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
