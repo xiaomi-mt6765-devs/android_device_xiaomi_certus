@@ -1,14 +1,16 @@
 # All blobs from full_certus-userdebug-10-QP1A.190711.020-mp1V91561-test-keys, unless pinned
 
 # AEE
-vendor/lib/libaedv.so
-vendor/lib/libladder.so
-vendor/lib/libudf.so
 vendor/lib/libdirect-coredump.so
-vendor/lib64/libaedv.so
-vendor/lib64/libladder.so
-vendor/lib64/libudf.so
 vendor/lib64/libdirect-coredump.so
+
+# AEE - from Ulefone/Note_11P/Note_11P:11/RP1A.200720.011/2101131254:user/release-keys
+vendor/lib/libaedv.so|68eb76e22650e6f7b09f6c1db32a72851445789f
+vendor/lib/libladder.so|b3161af9c1ae115b467ed6d210355348717145c8
+vendor/lib/libudf.so|0910236ff7b602a7ee4b6cf5472b5cff0d301f52
+vendor/lib64/libaedv.so|bd09673530e80f6cde27d91229b6df6394191053
+vendor/lib64/libladder.so|47ab171fde2026c25c0c63f0af9bfcee3fcd74a9
+vendor/lib64/libudf.so|00563b48abe3e19856133a87775363a9ef98c049
 
 # Audio
 vendor/lib/libaudiocompensationfilterc.so
