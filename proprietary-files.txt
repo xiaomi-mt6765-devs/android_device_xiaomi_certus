@@ -422,10 +422,6 @@ vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so
 vendor/lib/hw/lights.mt6765.so
 vendor/lib64/hw/lights.mt6765.so
 
-# Listen
-vendor/lib/hw/sound_trigger.primary.mt6765.so
-vendor/lib64/hw/sound_trigger.primary.mt6765.so
-
 # Media
 vendor/lib/libstagefright_soft_mpeg2dec.so
 
