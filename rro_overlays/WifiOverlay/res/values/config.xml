@@ -32,14 +32,8 @@
     <!-- Boolean indicating whether the wifi chipset has background scan support -->
     <bool name="config_wifi_background_scan_support">true</bool>
 
-    <!-- Boolean indicating whether the wifi chipset has dual frequency band support -->
-    <bool translatable="false" name="config_wifi_dual_band_support">true</bool>
-
-    <!-- boolean indicating whether the WiFi chipset has 5GHz band support.
-         Note: This config is replacing the config_wifi_dual_band_support
-         since more bands may now be supported (such as 6GHz), the naming dual_band
-         is no longer indicative, and a separate config now exists for each band -->
-    <bool translatable="false" name="config_wifi5ghzSupport">true</bool>
+    <!-- Boolean indicating whether the wifi chipset has 5GHz frequency band support -->
+    <bool name="config_wifi5ghzSupport">true</bool>
 
     <!-- Default access point SSID used for tethering -->
     <string name="wifi_tether_configure_ssid_default" translatable="false">Xiaomi Certus</string>
