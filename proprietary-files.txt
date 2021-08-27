@@ -618,14 +618,6 @@ vendor/lib/libthermalalgo.so
 # Thermal-Hardware
 vendor/lib/hw/thermal.mt6765.so
 
-# Time
-
-# Vibrator
-vendor/bin/hw/android.hardware.vibrator@1.0-service
-vendor/etc/init/android.hardware.vibrator@1.0-service.rc
-vendor/lib/hw/android.hardware.vibrator@1.0-impl.so
-vendor/lib/hw/vibrator.default.so
-
 # WiFi
 
 # Xiaomi
