@@ -589,7 +589,6 @@ vendor/etc/init/vendor.microtrust.hardware.soter@1.0-service.rc
 vendor/lib/vendor.microtrust.hardware.soter@1.0.so
 
 # Thermal
-vendor/bin/hw/android.hardware.thermal@1.0-service
 vendor/bin/thermal
 vendor/bin/thermalloadalgod
 vendor/bin/thermal_manager
@@ -597,11 +596,9 @@ vendor/etc/.tp/thermal.off.conf
 vendor/etc/.tp/thermal_high.conf
 vendor/etc/.tp/thermal_nolimits.conf
 vendor/etc/.tp/thermal_normal.conf
-vendor/etc/init/android.hardware.thermal@1.0-service.rc
 vendor/etc/init/init.thermal.rc
 vendor/etc/init/init.thermalloadalgod.rc
 vendor/etc/init/init.thermal_manager.rc
-vendor/lib/hw/android.hardware.thermal@1.0-impl.so
 vendor/lib/libthermalalgo.so
 
 # Thermal-Hardware
