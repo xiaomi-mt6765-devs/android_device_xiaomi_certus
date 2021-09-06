@@ -109,6 +109,9 @@ include device/mediatek/sepolicy_vndr/SEPolicy.mk
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
 
+# VNDK
+BOARD_VNDK_VERSION := current
+
 # Verified Boot (AVB)
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --set_hashtree_disabled_flag
