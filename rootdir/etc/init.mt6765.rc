@@ -1041,10 +1041,6 @@ on property:persist.vendor.mediatek.fg.log.enable=1
 on init
     symlink /dev/block/platform/bootdevice /dev/block/bootdevice
 
-# FPSGO FBT Game
-on boot
-    insmod /vendor/lib/modules/fpsgo.ko
-
 # Logger
 service boot_log /system/bin/logcat -b all -D -f /cache/boot_log_full.txt
     class main
