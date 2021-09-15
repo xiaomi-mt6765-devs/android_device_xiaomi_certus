@@ -1066,10 +1066,6 @@ on property:sys.boot_completed=1 && property:ro.boot.atm=enable
 on init
     symlink /dev/block/platform/bootdevice /dev/block/bootdevice
 
-# FPSGO FBT Game
-on boot
-    insmod /vendor/lib/modules/fpsgo.ko
-
 # Logger
 service boot_log /system/bin/logcat -b all -D -f /cache/boot_log_full.txt
     class main
