@@ -27,7 +27,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.audio@5.0.vendor \
-    android.hardware.soundtrigger@2.2
+    android.hardware.soundtrigger@2.2.vendor
 
 PRODUCT_PACKAGES += \
     libaudiopreprocessing \
