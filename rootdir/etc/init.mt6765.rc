@@ -56,6 +56,11 @@ on init
     write /dev/cpuset/system-background/cpus 2-7
     write /dev/cpuset/top-app/cpus 0-7
 
+    # Logger
+    start boot_log
+    start boot_log_crash
+    start boot_log_kernel
+
 # update bg rt_runtime 100ms
     write /dev/cpuctl/bg_non_interactive/cpu.rt_runtime_us 100000
 
@@ -151,6 +156,11 @@ on post-fs
 
     chown system system /mnt/vendor/protect_s
     chmod 0770 /mnt/vendor/protect_s
+
+    # Logger
+    start boot_log
+    start boot_log_crash
+    start boot_log_kernel
 
 on post-fs-data
     write /proc/bootprof "INIT:post-fs-data"
@@ -606,6 +616,11 @@ on post-fs-data
     # power manager
     write /sys/power/pm_async 0
 
+    # Logger
+    start boot_log
+    start boot_log_crash
+    start boot_log_kernel
+
 # End of adding by MTK drivers
 # -----------------------
 
@@ -1054,3 +1069,36 @@ on init
 # FPSGO FBT Game
 on boot
     insmod /vendor/lib/modules/fpsgo.ko
+
+# Logger
+service boot_log /system/bin/logcat -b all -D -f /cache/boot_log_full.txt
+    class main
+    user root
+    group root system
+    disabled
+    oneshot
+
+service boot_log_crash /system/bin/logcat -b crash -D -f /cache/boot_log_crash.txt
+    class main
+    user root
+    group root system
+    disabled
+    oneshot
+
+service boot_log_kernel /system/bin/logcat -b kernel -D -f /cache/boot_log_kernel.txt
+    class main
+    user root
+    group root system
+    disabled
+    oneshot
+
+on early-boot
+    start boot_log
+    start boot_log_crash
+    start boot_log_kernel
+
+on property:sys.boot_completed=1
+# Stop the logger service
+    stop boot_log
+    stop boot_log_crash
+    stop boot_log_kernel
