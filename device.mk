@@ -30,8 +30,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libaudiopreprocessing \
-    libtinycompress \
-    libtinyxml
+    libtinycompress
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_device.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_device.xml \
