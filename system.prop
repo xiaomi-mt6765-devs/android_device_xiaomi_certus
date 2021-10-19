@@ -24,6 +24,9 @@ ro.mtk_perf_response_time=1
 vendor.rild.libpath=mtk-ril.so
 vendor.rild.libargs=-d /dev/ttyC0
 
+# System
+persist.sys.binary_xml=false
+
 # USB
 ro.sys.usb.mtp.whql.enable=0
 ro.sys.usb.storage.type=mtp
