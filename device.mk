@@ -95,6 +95,10 @@ PRODUCT_PACKAGES += \
     libkeystore-engine-wifi-hidl \
     libkeystore-wifi-hidl
 
+# Libxml2
+PRODUCT_PACKAGES += \
+    libxml2.vendor
+
 # Light
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.certus
