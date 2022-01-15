@@ -195,6 +195,10 @@ PRODUCT_PACKAGES += \
     fstab.mt6765_ramdisk \
     ueventd.mt6765.rc
 
+# Renderscript
+PRODUCT_PACKAGES += \
+    android.hardware.renderscript@1.0-impl
+
 # Shipping API Level
 PRODUCT_SHIPPING_API_LEVEL := 29
 
