@@ -64,6 +64,9 @@ function blob_fixup() {
         vendor/lib64/hw/android.hardware.thermal@2.0-impl.so)
             "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "${2}"
             ;;
+        vendor/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek)
+            "${PATCHELF}" --replace-needed "libwifi-hal.so" "libwifi-hal-mtk.so" "${2}"
+            ;;
     esac
 }
 
