@@ -731,8 +731,6 @@ vendor/bin/wmt_fdb
 vendor/bin/wmt_launcher
 vendor/bin/wmt_loader
 vendor/bin/wmt_loopback
-vendor/data/misc/pdc.txt
-vendor/data/misc/ProjectConfig.mk
 vendor/etc/.tp/.ht120.mtc
 vendor/etc/aee-config
 vendor/etc/agps_profiles_conf2.xml
