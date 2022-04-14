@@ -706,7 +706,6 @@ vendor/bin/wlan_assistant
 vendor/bin/wmt_launcher
 vendor/bin/wmt_loader
 vendor/data/misc/pdc.txt
-vendor/data/misc/ProjectConfig.mk
 vendor/etc/.tp/.ht120.mtc
 vendor/etc/agps_profiles_conf2.xml
 vendor/etc/apdb/APDB_MT6765_S01__W2030
