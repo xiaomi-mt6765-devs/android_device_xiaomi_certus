@@ -762,7 +762,6 @@ vendor/etc/ipsec/ipsec.d/cacerts/VeriSignUniversalRootCertification.der
 vendor/etc/ipsec/ssl/openssl.cnf
 vendor/etc/ipsec/strongswan.conf
 vendor/etc/mtk_omx_core.cfg
-vendor/etc/partition_permission.sh
 vendor/etc/powercontable.xml
 vendor/etc/powerscntbl.xml
 vendor/etc/power_app_cfg.xml
@@ -770,7 +769,6 @@ vendor/etc/slp_conf
 vendor/etc/smsdbvisitor.xml
 vendor/etc/special_pws_channel.xml
 vendor/etc/spn-conf-op09.xml
-vendor/etc/throttle.sh
 vendor/etc/vendor-apns-conf.xml
 vendor/etc/virtual-spn-conf-by-efgid1.xml
 vendor/etc/virtual-spn-conf-by-efpnn.xml
