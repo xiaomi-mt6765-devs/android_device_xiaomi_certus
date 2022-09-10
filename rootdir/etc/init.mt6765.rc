@@ -115,9 +115,13 @@ on fs
     write /sys/kernel/debug/tracing/trace_marker "B|1|Mount"
     wait_for_prop hwservicemanager.ready "true"
     start vendor.boot-hal-1-0
-    mount_all /vendor/etc/fstab.mt6765
+    mount_all /vendor/etc/fstab.mt6765 --early
     write /sys/kernel/debug/tracing/trace_marker "E"
     write /proc/bootprof "INIT:Mount_END"
+
+on late-fs
+    # Mount RW partitions which need run fsck
+    mount_all /vendor/etc/fstab.mt6765 --late
 
 on post-fs
     write /proc/bootprof "INIT:post-fs"
