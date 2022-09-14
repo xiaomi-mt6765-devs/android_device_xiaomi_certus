@@ -586,9 +586,7 @@ vendor/lib64/hw/power.mt6765.so
 # Radio
 
 # Sensors
-vendor/lib/libsensorndkbridge.so
 vendor/lib64/hw/sensors.mt6765.so
-vendor/lib64/libsensorndkbridge.so
 vendor/lib64/libsensor_custom.so
 
 # Thermal
