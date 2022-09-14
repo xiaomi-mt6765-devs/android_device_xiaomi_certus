@@ -590,7 +590,6 @@ vendor/lib/libvsim.so
 
 # Sensors
 vendor/lib/hw/sensors.mt6765.so
-vendor/lib/libsensorndkbridge.so
 vendor/lib/libsensor_custom.so
 
 # Soter
