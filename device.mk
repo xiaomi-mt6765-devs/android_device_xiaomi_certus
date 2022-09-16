@@ -157,6 +157,7 @@ PRODUCT_PACKAGES += \
     init.mt6765.usb.rc \
     init.sensor_1_0.rc \
     fstab.mt6765 \
+    fstab.mt6765_ramdisk \
     ueventd.mt6765.rc
 
 # USB
