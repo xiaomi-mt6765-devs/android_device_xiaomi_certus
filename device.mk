@@ -173,6 +173,9 @@ PRODUCT_PACKAGES += \
     fstab.mt6765 \
     ueventd.mt6765.rc
 
+PRODUCT_PACKAGES += \
+    init.recovery.mt6765.rc
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
