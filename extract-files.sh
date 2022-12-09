@@ -74,6 +74,9 @@ function blob_fixup() {
         vendor/lib/hw/audio.primary.mt6765.so)
             "${PATCHELF}" --replace-needed "libmedia_helper.so" "libmedia_helper-v29.so" "${2}"
             ;;
+        vendor/lib/hw/android.hardware.audio@5.0-impl-mediatek.so)
+            "${PATCHELF}" --replace-needed "android.hardware.audio.common@5.0-util.so" "android.hardware.audio.common@5.0-util-v29.so" "${2}"
+            ;;
     esac
 }
 
