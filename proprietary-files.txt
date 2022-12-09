@@ -40,13 +40,15 @@ vendor/lib64/libaudio_param_parser-vnd.so
 vendor/bin/hw/android.hardware.audio@5.0-service-mediatek
 vendor/etc/init/android.hardware.audio@5.0-service-mediatek.rc
 vendor/lib/android.hardware.audio.common-util.so
+vendor/lib/android.hardware.audio.common@5.0-util.so:vendor/lib/android.hardware.audio.common@5.0-util-v29.so|04b9291d96e76c78727a0f90ad4c738d09d20453
 vendor/lib/hw/android.hardware.audio.effect@5.0-impl.so
-vendor/lib/hw/android.hardware.audio@5.0-impl-mediatek.so
+vendor/lib/hw/android.hardware.audio@5.0-impl-mediatek.so|7d701c2d42b25a7518b565080a999a2bf11055e2
 vendor/lib/hw/audio.primary.mt6765.so
 vendor/lib/hw/audio.r_submix.mt6765.so
 vendor/lib/hw/audio.usb.mt6765.so
 vendor/lib/vendor.mediatek.hardware.audio@5.1.so
 vendor/lib64/android.hardware.audio.common-util.so
+vendor/lib64/android.hardware.audio.common@5.0-util.so:vendor/lib64/android.hardware.audio.common@5.0-util-v29.so|2d07f6160f2e7a6a12fb1ed7228ad5fa5e50182f
 vendor/lib64/hw/android.hardware.audio.effect@5.0-impl.so
 vendor/lib64/hw/android.hardware.audio@5.0-impl-mediatek.so
 vendor/lib64/hw/audio.primary.mt6765.so
