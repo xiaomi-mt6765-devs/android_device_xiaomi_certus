@@ -511,7 +511,7 @@ vendor/lib64/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.mtkpower@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.power@2.1-impl.so
-vendor/lib64/hw/vendor.mediatek.hardware.pq@2.3-impl.so
+vendor/lib64/hw/vendor.mediatek.hardware.pq@2.3-impl.so|4cfad70bdef3d9469e14199a517a44e043d9f6df
 vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
 vendor/lib64/libmtk-ril.so
 vendor/lib64/libmtkares.so
