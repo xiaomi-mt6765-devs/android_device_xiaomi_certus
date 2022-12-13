@@ -58,6 +58,9 @@ function blob_fixup() {
         vendor/lib64/libmtkcam_stdutils.so)
             "${PATCHELF}" --replace-needed "libutils.so" "libutils-v30.so" "${2}"
             ;;
+        vendor/lib64/hw/vendor.mediatek.hardware.pq@2.3-impl.so)
+            "${PATCHELF}" --replace-needed "libutils.so" "libutils-v30.so" "${2}"
+            ;;
     esac
 }
 
