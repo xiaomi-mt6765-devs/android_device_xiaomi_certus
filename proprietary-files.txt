@@ -604,7 +604,6 @@ vendor/app/SensorHub/lib/arm64/libem_sensor_jni.so
 vendor/bin/atcid
 vendor/bin/audiocmdservice_atci
 vendor/bin/autobt
-vendor/bin/bc
 vendor/bin/bip
 vendor/bin/ccci_fsd
 vendor/bin/ccci_mdinit
