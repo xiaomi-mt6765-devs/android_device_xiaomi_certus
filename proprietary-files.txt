@@ -632,7 +632,6 @@ vendor/bin/atci_service
 vendor/bin/audiocmdservice_atci
 vendor/bin/audio_param_test-vnd
 vendor/bin/autobt
-vendor/bin/bc
 vendor/bin/bip
 vendor/bin/ccci_fsd
 vendor/bin/ccci_mdinit
