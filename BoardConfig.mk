@@ -103,6 +103,7 @@ BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 VENDOR_SECURITY_PATCH := 2019-03-05
 
 # SEPolicy
+TARGET_USING_LEGACY_SELINUX := true
 include device/mediatek/sepolicy_vndr/SEPolicy.mk
 
 # VINTF
