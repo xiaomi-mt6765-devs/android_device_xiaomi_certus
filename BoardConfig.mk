@@ -95,6 +95,7 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 VENDOR_SECURITY_PATCH := 2020-10-05
 
 # SEPolicy
+TARGET_USING_LEGACY_SELINUX := true
 include device/mediatek/sepolicy_vndr/SEPolicy.mk
 
 # VINTF
