@@ -491,7 +491,6 @@ vendor/bin/hw/android.hardware.sensors@1.0-service-mediatek
 vendor/bin/hw/android.hardware.usb@1.1-service-mediatek
 vendor/bin/hw/android.hardware.wifi@1.0-service-mediatek
 vendor/bin/hw/vendor.mediatek.hardware.dfps@1.0-service
-vendor/bin/hw/vendor.mediatek.hardware.log@1.0-service
 vendor/bin/hw/vendor.mediatek.hardware.mms@1.5-service
 vendor/bin/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-service
 vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service
@@ -501,7 +500,6 @@ vendor/etc/init/android.hardware.sensors@1.0-service-mediatek.rc
 vendor/etc/init/android.hardware.usb@1.1-service-mediatek.rc
 vendor/etc/init/android.hardware.wifi@1.0-service-mediatek.rc
 vendor/etc/init/vendor.mediatek.hardware.dfps@1.0-service.rc
-vendor/etc/init/vendor.mediatek.hardware.log@1.0-service.rc
 vendor/etc/init/vendor.mediatek.hardware.mms@1.5-service.rc
 vendor/etc/init/vendor.mediatek.hardware.mtkcodecservice@1.1-service.rc
 vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc
@@ -552,7 +550,6 @@ vendor/lib/vendor.mediatek.hardware.dfps@1.0.so
 vendor/lib/vendor.mediatek.hardware.engineermode@1.0.so
 vendor/lib/vendor.mediatek.hardware.engineermode@1.1.so
 vendor/lib/vendor.mediatek.hardware.lbs@1.0.so
-vendor/lib/vendor.mediatek.hardware.log@1.0.so
 vendor/lib/vendor.mediatek.hardware.mms@1.0.so
 vendor/lib/vendor.mediatek.hardware.mms@1.1.so
 vendor/lib/vendor.mediatek.hardware.mms@1.2.so
@@ -690,7 +687,6 @@ vendor/bin/libccu_cactus_s5k5e8yx_ofilm_mipi_raw.dm
 vendor/bin/libccu_cactus_s5k5e8yx_ofilm_mipi_raw.pm
 vendor/bin/libccu_cereus_s5k5e8yx_sunny_mipi_raw.dm
 vendor/bin/libccu_cereus_s5k5e8yx_sunny_mipi_raw.pm
-vendor/bin/loghidlvendorservice
 vendor/bin/meta_tst
 vendor/bin/mmc_ffu
 vendor/bin/mnld
@@ -778,7 +774,6 @@ vendor/etc/init/init.wod.rc
 vendor/etc/init/init_connectivity.rc
 vendor/etc/init/ipsec_mon.rc
 vendor/etc/init/lbs_hidl_service.rc
-vendor/etc/init/loghidlvendorservice.rc
 vendor/etc/init/microtrust.rc
 vendor/etc/init/mtk_agpsd.rc
 vendor/etc/init/mtk_agpsd_p.rc
