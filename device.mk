@@ -64,6 +64,10 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4.vendor \
     android.hardware.camera.provider@2.5.vendor
 
+# Configstore
+PRODUCT_PACKAGES += \
+    android.hardware.configstore@1.1-service
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
