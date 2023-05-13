@@ -303,15 +303,16 @@ lib/libshowlogo.so
 vendor/bin/hw/android.hardware.configstore@1.1-service
 vendor/etc/init/android.hardware.configstore@1.1-service.rc
 
-# DRM-Hardware
-vendor/bin/hw/android.hardware.drm@1.2-service.widevine
-vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc
-
-# DRM-Widevine
-vendor/lib/libwvhidl.so
-vendor/lib/mediadrm/libwvdrmengine.so
-vendor/lib64/libwvhidl.so
-vendor/lib64/mediadrm/libwvdrmengine.so
+# DRM - from motorola/hawaiipl_g/hawaiipl:12/STB32.36-101/101:user/release-keys
+vendor/bin/hw/android.hardware.drm@1.4-service.widevine|8307cea32c20bdc6e7456a6060ebefcfe743b02c
+vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc|992f63e9700da29099e0590858a6becaaadb2976
+-vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml|91d7c0996133556cb7f7c5d1b7e5d9e7f07b78b2
+vendor/lib/liboemcrypto.so|49f1b78492ecd106d6f7ad61a5385ac185e555a5
+vendor/lib/libwvhidl.so|fcce40157d5298d3254caee583a340d4e4f7baa6
+vendor/lib/mediadrm/libwvdrmengine.so|a488ce03a1e956691a8956bfadb169e96cb1d959
+vendor/lib64/liboemcrypto.so|936a3b3ab6df239a0a36f36635749c2c78786225
+vendor/lib64/libwvhidl.so|b6b56aa9ae936b79c2a15f904ebf4923d9988e38
+vendor/lib64/mediadrm/libwvdrmengine.so|b197d579899dac2d6a8dff2a98d44b7a61aa1b95
 
 # Display-Hardware
 vendor/bin/hw/android.hardware.graphics.allocator@2.0-service
