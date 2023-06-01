@@ -1,13 +1,18 @@
 # All blobs from full_certus-user-10-QP1A.190711.020-mp1V91221-test-keys, unless pinned
 
 # AEE
-vendor/lib/libladder.so
-vendor/lib/libudf.so
 vendor/lib/libdirect-coredump.so
-vendor/lib64/libaedv.so
-vendor/lib64/libladder.so
-vendor/lib64/libudf.so
 vendor/lib64/libdirect-coredump.so
+
+# AEE - from Redmi/merlin/merlin:11/RP1A.200720.011/V12.5.6.0.RJOINXM:user/release-keys
+vendor/lib/libaedv.so|0338e7a75ab3727f1f2345e31c09809e0b1acc0c
+vendor/lib/libladder.so|b3161af9c1ae115b467ed6d210355348717145c8
+vendor/lib64/libaedv.so|283f2df71e8ecf26e56d4a8fd478cdf6e1a67413
+vendor/lib64/libladder.so|47ab171fde2026c25c0c63f0af9bfcee3fcd74a9
+
+# AEE (UDF) - from Redmi/merlin/merlin:12/SP1A.210812.016/V13.0.1.0.SJOCNXM:user/release-keys
+vendor/lib/libudf.so|7cdbb5c5c616dbbec6afcd75d5cc41f915ff82d6
+vendor/lib64/libudf.so|66324571c3f69057b250bce3b0d58c386da0c25b
 
 # Audio
 vendor/lib/libaudiocompensationfilterc.so
