@@ -521,7 +521,6 @@ vendor/lib64/libmtksysutils.so
 vendor/lib64/libmtktinyxml.so
 vendor/lib64/libmtkutils.so
 vendor/lib64/libmtk_drvb.so
-vendor/lib64/vendor.mediatek.hardware.atci@1.0.so
 vendor/lib64/vendor.mediatek.hardware.engineermode@1.0.so
 vendor/lib64/vendor.mediatek.hardware.engineermode@1.1.so
 vendor/lib64/vendor.mediatek.hardware.engineermode@1.2.so
@@ -621,9 +620,6 @@ vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.1.so
 vendor/app/EmCamera/lib/arm64/libem_camera_jni.so
 vendor/app/SensorHub/lib/arm64/libem_sensor_jni.so
 -vendor/app/SensorHub/SensorHub.apk
-vendor/bin/atcid
-vendor/bin/atci_service
-vendor/bin/audiocmdservice_atci
 vendor/bin/audio_param_test-vnd
 vendor/bin/autobt
 vendor/bin/bip
@@ -705,9 +701,6 @@ vendor/etc/ecc_list_OP17.xml
 vendor/etc/ecc_list_OP18.xml
 vendor/etc/ecc_list_OP20.xml
 vendor/etc/fstb.cfg
-vendor/etc/init/atcid.rc
-vendor/etc/init/atci_service.rc
-vendor/etc/init/audiocmdservice_atci.rc
 vendor/etc/init/bootperf.rc
 vendor/etc/init/camerahalserver.rc
 vendor/etc/init/fuelgauged_init.rc
