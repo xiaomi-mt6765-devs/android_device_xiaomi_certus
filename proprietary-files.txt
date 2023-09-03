@@ -602,7 +602,6 @@ vendor/bin/ccci_fsd
 vendor/bin/ccci_mdinit
 vendor/bin/ccci_rpcd
 vendor/bin/charon
-vendor/bin/em_hidl
 vendor/bin/epdg_wod
 vendor/bin/factory
 vendor/bin/fuelgauged
@@ -677,7 +676,6 @@ vendor/etc/init/atcid.rc
 vendor/etc/init/audiocmdservice_atci.rc
 vendor/etc/init/bootperf.rc
 vendor/etc/init/camerahalserver.rc
-vendor/etc/init/em_hidl_user.rc
 vendor/etc/init/fuelgauged_init.rc
 vendor/etc/init/fuelgauged_nvram_init.rc
 vendor/etc/init/gsm0710muxd.rc
