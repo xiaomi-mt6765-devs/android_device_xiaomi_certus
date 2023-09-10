@@ -634,8 +634,6 @@ vendor/bin/ccci_fsd
 vendor/bin/ccci_mdinit
 vendor/bin/ccci_rpcd
 vendor/bin/charon
-vendor/bin/dconfig
-vendor/bin/dtc_vendor
 vendor/bin/eeprom_test
 vendor/bin/em_hidl
 vendor/bin/epdg_wod
