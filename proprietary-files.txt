@@ -677,7 +677,6 @@ vendor/bin/libccu_cereus_s5k5e8yx_sunny_mipi_raw.pm
 vendor/bin/loghidlvendorservice
 vendor/bin/md_monitor
 vendor/bin/md_monitor_ctrl
-vendor/bin/meta_tst
 vendor/bin/mnld
 vendor/bin/mrdump_tool
 vendor/bin/mtkcam-debug
