@@ -1020,26 +1020,12 @@ service mbimd /vendor/bin/mbimd debug
     disabled
     oneshot
 
-# add meta_tst for ATM
-service meta_tst /vendor/bin/meta_tst
-    class main
-    user radio gps system wifi
-    group radio gps system wifi audio bluetooth media
-    disabled
-    oneshot
-
 # add loghidl client
 service loghidlsysservice /system/bin/loghidlsysservice
     class main
     user root
     group system
     disabled
-
-# start meta_tst for ATM
-on property:sys.boot_completed=1 && property:ro.boot.atm=enable
-    start meta_tst
-    start loghidlvendorservice
-    start loghidlsysservice
 
 # FPSGO FBT Game
 on init
