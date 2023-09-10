@@ -638,7 +638,6 @@ vendor/bin/libccu_cereus_s5k5e8yx_ofilm_mipi_raw.dm
 vendor/bin/libccu_cereus_s5k5e8yx_ofilm_mipi_raw.pm
 vendor/bin/libccu_cereus_s5k5e8yx_sunny_mipi_raw.dm
 vendor/bin/libccu_cereus_s5k5e8yx_sunny_mipi_raw.pm
-vendor/bin/meta_tst
 vendor/bin/mnld
 vendor/bin/mtkcam-debug
 vendor/bin/mtk_agpsd
