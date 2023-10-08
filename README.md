@@ -1,6 +1,14 @@
-# Unified device tree for Xiaomi Redmi 6/6a (certus)
+# Unified Android Device tree for the Xiaomi Redmi 6/6A (certus)
 
-## Device configuration Xiaomi Redmi 6A (cactus)
+```
+#
+# Copyright (C) 2023 The LineageOS Project
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+```
+
+## Xiaomi Redmi 6A (cactus)
 
 Basic   | Spec Sheet
 -------:|:-------------------------
@@ -19,7 +27,7 @@ Front Camera | 5.0 MP
 
 ![Xiaomi Redmi 6a](https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-6a-1.jpg "Xiaomi Redmi 6a")
 
-## Device configuration Xiaomi Redmi 6 (cereus)
+## Xiaomi Redmi 6 (cereus)
  
 Basic   | Spec Sheet
 -------:|:-------------------------
