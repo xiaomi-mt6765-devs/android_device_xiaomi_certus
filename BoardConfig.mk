@@ -93,6 +93,10 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 # SPL
 VENDOR_SECURITY_PATCH := 2020-08-05
 
+# VINTF
+DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
+DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
+
 # Verified Boot (AVB)
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --set_hashtree_disabled_flag
