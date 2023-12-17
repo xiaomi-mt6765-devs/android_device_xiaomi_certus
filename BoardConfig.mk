@@ -133,6 +133,9 @@ TARGET_USING_LEGACY_SELINUX := true
 include device/mediatek/sepolicy_vndr/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
+# SPL
+VENDOR_SECURITY_PATCH := 2020-10-05
+
 # VINTF
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
