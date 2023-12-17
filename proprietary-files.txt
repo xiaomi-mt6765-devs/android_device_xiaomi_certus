@@ -490,8 +490,6 @@ vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc
 vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc
 vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc
 vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc
-vendor/etc/media_codecs_mediatek_audio.xml
-vendor/etc/media_codecs_mediatek_video.xml
 vendor/lib/hw/android.hardware.power@1.3-impl-mediatek.so
 vendor/lib/hw/vendor.mediatek.hardware.mms@1.5-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so
