@@ -158,7 +158,6 @@ vendor/etc/aurisys_param/Speech_AudioParam.xml
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-mediatek
 vendor/etc/audio_policy_configuration_bluetooth_legacy_hal.xml
-vendor/etc/bluetooth_audio_policy_configuration.xml
 vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc
 vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl-mediatek.so
 vendor/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so
@@ -711,7 +710,6 @@ vendor/bin/wmt_loader
 vendor/data/misc/pdc.txt
 vendor/data/misc/ProjectConfig.mk
 vendor/etc/.tp/.ht120.mtc
-vendor/etc/a2dp_in_audio_policy_configuration.xml
 vendor/etc/agps_profiles_conf2.xml
 vendor/etc/apdb/APDB_MT6765_S01__W2030
 vendor/etc/apdb/APDB_MT6765_S01__W2030_ENUM
