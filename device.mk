@@ -43,6 +43,14 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 1440
 TARGET_SCREEN_WIDTH := 720
 
+# DRM
+PRODUCT_PACKAGES += \
+    android.hardware.drm@1.0-impl \
+    android.hardware.drm@1.0-service \
+    android.hardware.drm@1.2-service.clearkey \
+    libdrmclearkeyplugin \
+    libmockdrmcryptoplugin
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
