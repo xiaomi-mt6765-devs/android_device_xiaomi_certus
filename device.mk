@@ -162,6 +162,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libsensorndkbridge
 
+# Shipping API Level
+PRODUCT_SHIPPING_API_LEVEL := 29
+
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0-impl \
