@@ -124,6 +124,7 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 BOARD_VNDK_VERSION := current
 
 # SEPolicy
+SELINUX_IGNORE_NEVERALLOWS := true
 TARGET_USING_LEGACY_SELINUX := true
 include device/mediatek/sepolicy_vndr/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
