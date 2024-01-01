@@ -178,8 +178,10 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Thermal
 PRODUCT_PACKAGES += \
-    android.hardware.thermal@1.0-impl \
-    android.hardware.thermal@1.0-service
+    android.hardware.thermal@1.0-impl
+
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@2.0.vendor
 
 # Vibrator
 PRODUCT_PACKAGES += \
