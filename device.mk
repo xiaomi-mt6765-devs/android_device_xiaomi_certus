@@ -44,9 +44,12 @@ TARGET_SCREEN_WIDTH := 720
 
 # DRM
 PRODUCT_PACKAGES += \
-    android.hardware.drm@1.0-impl \
-    android.hardware.drm@1.0-service \
-    android.hardware.drm@1.2-service.clearkey \
+    android.hardware.drm-service.clearkey
+
+PRODUCT_PACKAGES += \
+    android.hardware.drm@1.4.vendor
+
+PRODUCT_PACKAGES += \
     libdrmclearkeyplugin \
     libmockdrmcryptoplugin
 
