@@ -590,23 +590,29 @@ vendor/lib64/hw/power.mt6765.so
 vendor/lib64/hw/sensors.mt6765.so
 vendor/lib64/libsensor_custom.so
 
-# Thermal
-vendor/bin/thermal
-vendor/bin/thermalloadalgod
-vendor/bin/thermal_manager
-vendor/etc/.tp/.thermal_policy_00
-vendor/etc/.tp/.thermal_policy_03
-vendor/etc/.tp/.thermal_policy_05
-vendor/etc/.tp/thermal.conf
-vendor/etc/.tp/thermal.off.conf
-vendor/etc/init/init.thermal.rc
-vendor/etc/init/init.thermalloadalgod.rc
-vendor/etc/init/init.thermal_manager.rc
-vendor/lib/libthermalalgo.so
-
-# Thermal-Hardware
-vendor/lib/hw/thermal.mt6765.so
-vendor/lib64/hw/thermal.mt6765.so
+# Thermal - from motorola/hawaiipl_g/hawaiipl:12/STB32.36-101/101:user/release-keys
+vendor/bin/hw/android.hardware.thermal@2.0-service.mtk|2201c319b8d26b7c86be912d0642de68a622a48e
+vendor/bin/thermal_manager|f5ce8dbd14d6a37f838d76768abf87ed065a454e
+vendor/bin/thermalloadalgod|ff67b9a2bc09048c76eaed52b4deed14b3c10f00
+vendor/bin/thermal|3ca0b02a523feb2a93a78e97d26f7a114c458456
+vendor/etc/.tp/.ht120.mtc|aa4697696f0864cc8bd17303b1f6134d4c9aed2e
+vendor/etc/.tp/.thermal_policy_00|175dca314fea3aac7b66e9dd9570a05535ee5beb
+vendor/etc/.tp/.thermal_policy_03|175dca314fea3aac7b66e9dd9570a05535ee5beb
+vendor/etc/.tp/.thermal_policy_05|175dca314fea3aac7b66e9dd9570a05535ee5beb
+vendor/etc/.tp/thermal.conf|bce12c23428f71e66e4d79ed90b9c4fabb8cc0cf
+vendor/etc/.tp/thermal.off.conf|310a897927cff87ed6625fe56dec20544827a9d8
+vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc|37c636547e2153d82754b66849057d09078c226d
+vendor/etc/init/init.thermal.rc|cb4f259f720f2481a3e9b4d68d7c72193c554faa
+vendor/etc/init/init.thermal_manager.rc|764c19af5e285345a9fd5b75131fa9588b609d62
+vendor/etc/init/init.thermalloadalgod.rc|d70cde3b8a1a1607f7a99475b3357a894907458f
+vendor/lib/hw/android.hardware.thermal@2.0-impl.so|3faca09b5b2018c66701caf4f44900aac77a44f5
+vendor/lib/hw/thermal_hal.so|e007feb51b3fa440d874573c8a90166a78d90e75
+vendor/lib/libmtcloader.so|719b32cf73cd4407cfc4b51a56cb9d7059c28cf2
+vendor/lib/libthermalalgo.so|dc265e571499a77eef86088acf9c428e8800a2c3
+vendor/lib64/hw/android.hardware.thermal@2.0-impl.so|ef3e4f56f72f62e8391d5862486b55d7748123c3
+vendor/lib64/hw/thermal_hal.so|bccfa3668267ce18fefc65dc852328b4561e8c85
+vendor/lib64/libifcutils_mtk.so|1c7349f53461402e5114b4ef1e1b2ffffd8db631
+vendor/lib64/libmtcloader.so|1ed3d9e605b83705725b3ffb9cb7486b8484422b
 
 # WiFi
 
@@ -694,7 +700,6 @@ vendor/bin/wlan_assistant
 vendor/bin/wmt_launcher
 vendor/bin/wmt_loader
 vendor/data/misc/pdc.txt
-vendor/etc/.tp/.ht120.mtc
 vendor/etc/agps_profiles_conf2.xml
 vendor/etc/apdb/APDB_MT6765_S01__W2039
 vendor/etc/apdb/APDB_MT6765_S01__W2039_ENUM
@@ -1012,7 +1017,6 @@ vendor/lib/libmp4enc_sa.ca7.so
 vendor/lib/libmp4enc_xa.ca7.so
 vendor/lib/libmpvr.so
 vendor/lib/libmsbc_mtk.so
-vendor/lib/libmtcloader.so
 vendor/lib/libmtee.so
 vendor/lib/libneuropilot_hal_utils.so
 vendor/lib/libnvram.so
@@ -1170,7 +1174,6 @@ vendor/lib64/libhdrproc.so
 vendor/lib64/libhevce_sb.ca7.android.so
 vendor/lib64/libhwm.so
 vendor/lib64/libhydra.so
-vendor/lib64/libifcutils_mtk.so
 vendor/lib64/libimageio.so
 vendor/lib64/libimageio_plat_drv.so
 vendor/lib64/libimageio_plat_pipe.so
@@ -1192,7 +1195,6 @@ vendor/lib64/libmmprofile.so
 vendor/lib64/libmnetlink_v104.so
 vendor/lib64/libmpvr.so
 vendor/lib64/libmsbc_mtk.so
-vendor/lib64/libmtcloader.so
 vendor/lib64/libmtee.so
 vendor/lib64/libneuropilot_hal_utils.so
 vendor/lib64/libnvram.so
