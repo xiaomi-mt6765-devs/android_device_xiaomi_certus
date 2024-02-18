@@ -24,6 +24,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.audio@5.0.vendor \
+    android.hardware.audio.common@5.0-util.vendor \
     android.hardware.soundtrigger@2.2 \
     android.hardware.soundtrigger@2.2.vendor
 
