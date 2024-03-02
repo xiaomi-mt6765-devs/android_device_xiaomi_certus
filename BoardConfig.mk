@@ -51,6 +51,7 @@ TARGET_KERNEL_CLANG_COMPILE := false
 TARGET_KERNEL_USE_GCC := true
 TARGET_KERNEL_CROSS_COMPILE := gcc-linaro-7.5.0
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
+TARGET_KERNEL_ADDITIONAL_FLAGS := HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
 
 # Inherit the proprietary files
 include vendor/xiaomi/certus/BoardConfigVendor.mk
