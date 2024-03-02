@@ -63,5 +63,8 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_HAS_MTK_HARDWARE := true
 TARGET_BOARD_PLATFORM := mt6765
 
+# VNDK
+PRODUCT_USE_VNDK_OVERRIDE := true
+
 # Inherit the proprietary files
 include vendor/xiaomi/certus/BoardConfigVendor.mk
