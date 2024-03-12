@@ -58,6 +58,7 @@ BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 TARGET_KERNEL_ADDITIONAL_FLAGS := HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
 
 # Platform
+BOARD_HAS_MTK_HARDWARE := true
 TARGET_BOARD_PLATFORM := mt6765
 
 # Inherit the proprietary files
