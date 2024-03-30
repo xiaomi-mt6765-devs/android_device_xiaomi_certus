@@ -210,6 +210,9 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
+    android.hardware.sensors@2.0.vendor
+
+PRODUCT_PACKAGES += \
     libsensorndkbridge
 
 # Shipping API Level
