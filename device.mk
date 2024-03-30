@@ -23,6 +23,7 @@ PRODUCT_PACKAGES += \
     audio_policy.stub
 
 PRODUCT_PACKAGES += \
+    android.hardware.audio@5.0.vendor \
     android.hardware.soundtrigger@2.2
 
 PRODUCT_PACKAGES += \
