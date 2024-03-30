@@ -424,7 +424,6 @@ vendor/lib64/libstagefrighthw.so
 
 # Mediatek
 vendor/bin/hw/android.hardware.sensors@2.0-service-mediatek
-vendor/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek
 vendor/bin/hw/vendor.mediatek.hardware.gpu@1.0-service
 vendor/bin/hw/vendor.mediatek.hardware.mms@1.5-service
 vendor/bin/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-service
@@ -432,7 +431,6 @@ vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service
 vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service
 vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service
 vendor/etc/init/android.hardware.sensors@2.0-service-mediatek.rc
-vendor/etc/init/android.hardware.wifi@1.0-service-lazy-mediatek.rc
 vendor/etc/init/vendor.mediatek.hardware.gpu@1.0-service.rc
 vendor/etc/init/vendor.mediatek.hardware.mms@1.5-service.rc
 vendor/etc/init/vendor.mediatek.hardware.mtkcodecservice@1.1-service.rc
@@ -553,8 +551,6 @@ vendor/lib64/vendor.mediatek.hardware.pq@2.1.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.2.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.3.so
 vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
-vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.0.so
-vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.1.so
 
 # Power-Hardware
 -vendor/etc/vintf/manifest/android.hardware.gpu@1.0-service.xml
@@ -588,6 +584,23 @@ vendor/lib/hw/thermal.mt6765.so
 vendor/lib64/hw/thermal.mt6765.so
 
 # WiFi
+vendor/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek
+vendor/bin/hw/hostapd
+vendor/bin/hw/wpa_supplicant
+vendor/bin/hostapd_cli
+vendor/bin/wlan_assistant
+vendor/bin/wmt_launcher
+vendor/bin/wmt_loader
+vendor/bin/wpa_cli
+vendor/etc/init/android.hardware.wifi@1.0-service-lazy-mediatek.rc
+vendor/etc/init/hostapd.android.rc
+vendor/etc/init/wlan_assistant.rc
+vendor/lib/libwpa_client.so
+vendor/lib64/libwifi-hal.so
+vendor/lib64/libwifitest.so
+vendor/lib64/libwpa_client.so
+vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.0.so
+vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.1.so
 
 # Misc
 -vendor/app/EmCamera/EmCamera.apk
@@ -657,9 +670,6 @@ vendor/bin/volte_md_status
 vendor/bin/volte_stack
 vendor/bin/volte_ua
 vendor/bin/wfca
-vendor/bin/wlan_assistant
-vendor/bin/wmt_launcher
-vendor/bin/wmt_loader
 vendor/data/misc/pdc.txt
 vendor/etc/.tp/.ht120.mtc
 vendor/etc/agps_profiles_conf2.xml
@@ -714,7 +724,6 @@ vendor/etc/init/muxreport.rc
 vendor/etc/init/netdagent.rc
 vendor/etc/init/nvram_daemon.rc
 vendor/etc/init/vendor.microtrust.hardware.capi@2.0-service.rc
-vendor/etc/init/wlan_assistant.rc
 vendor/etc/ipsec/ipsec.conf
 vendor/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootCA.crt
 vendor/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootG2.crt
@@ -1202,7 +1211,6 @@ vendor/lib64/libvcodec_oal.so
 vendor/lib64/libvcodec_utility.so
 vendor/lib64/libverno.so
 vendor/lib64/libwapi.so
-vendor/lib64/libwifitest.so
 vendor/lib64/libwo.so
 vendor/lib64/libwpfa.so
 vendor/lib64/lib_bsscore.so
