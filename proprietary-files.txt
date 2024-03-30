@@ -1262,8 +1262,6 @@ vendor/lib64/lib_bsscore.so
 vendor/lib64/lib_iir.so
 vendor/lib64/lib_speech_enh.so
 vendor/lib64/vendor.microtrust.hardware.capi@2.0.so
-vendor/ro.prop
-vendor/rw.prop
 vendor/thh/ta/7778c03fc30c4dd0a319ea29643d4d4b.ta
 vendor/thh/ta/8888c03fc30c4dd0a319ea29643d4d4b.ta
 vendor/thh/ta/c09c9c5daa504b78b0e46eda61556c3a.ta
