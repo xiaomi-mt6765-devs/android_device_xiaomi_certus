@@ -44,6 +44,10 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 1440
 TARGET_SCREEN_WIDTH := 720
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth.a2dp@1.0.vendor
+
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.common@1.0.vendor \
