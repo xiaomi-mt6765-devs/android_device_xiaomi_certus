@@ -940,6 +940,24 @@ vendor/lib64/hw/thermal_hal.so|bccfa3668267ce18fefc65dc852328b4561e8c85
 vendor/lib64/libifcutils_mtk.so|1c7349f53461402e5114b4ef1e1b2ffffd8db631
 vendor/lib64/libmtcloader.so|1ed3d9e605b83705725b3ffb9cb7486b8484422b
 
+# Trusted Execution Environment (Trustonic)
+vendor/bin/teei_daemon
+vendor/bin/hw/vendor.microtrust.hardware.capi@2.0-service
+vendor/etc/init/microtrust.rc
+vendor/etc/init/vendor.microtrust.hardware.capi@2.0-service.rc
+vendor/lib/libTEECommon.so
+vendor/lib/libimsg_log.so
+vendor/lib/vendor.microtrust.hardware.capi@2.0.so
+vendor/lib64/libTEECommon.so
+vendor/lib64/libimsg_log.so
+vendor/lib64/vendor.microtrust.hardware.capi@2.0.so
+vendor/thh/ta/7778c03fc30c4dd0a319ea29643d4d4b.ta
+vendor/thh/ta/8888c03fc30c4dd0a319ea29643d4d4b.ta
+vendor/thh/ta/c09c9c5daa504b78b0e46eda61556c3a.ta
+vendor/thh/ta/c1882f2d885e4e13a8c8e2622461b2fa.ta
+vendor/thh/ta/d78d338b1ac349e09f65f4efe179739d.ta
+vendor/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta
+
 # WiFi
 vendor/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek|53982edba923c694daa070b6603645e601a36bd7
 vendor/bin/hw/hostapd|dd60f8e89893a8b84d713bc2c28fa402abee68f9
@@ -983,7 +1001,6 @@ vendor/bin/gsm0710muxd
 vendor/bin/hw/mtkfusionrild
 vendor/bin/hw/power_legacy_test_v_1_0
 vendor/bin/hw/power_native_test_v_1_0
-vendor/bin/hw/vendor.microtrust.hardware.capi@2.0-service
 vendor/bin/hw/vtservice_hidl
 vendor/bin/md_monitor
 vendor/bin/md_monitor_ctrl
@@ -995,7 +1012,6 @@ vendor/bin/nvram_daemon
 vendor/bin/rttv
 vendor/bin/sentest
 vendor/bin/stp_dump3
-vendor/bin/teei_daemon
 vendor/bin/volte_imcb
 vendor/bin/volte_imsm_93
 vendor/bin/volte_md_status
@@ -1044,12 +1060,10 @@ vendor/etc/init/init.wmt_drv.rc
 vendor/etc/init/init.wod.rc
 vendor/etc/init/init_connectivity.rc
 vendor/etc/init/md_monitor.rc
-vendor/etc/init/microtrust.rc
 vendor/etc/init/mtkrild.rc
 vendor/etc/init/muxreport.rc
 vendor/etc/init/netdagent.rc
 vendor/etc/init/nvram_daemon.rc
-vendor/etc/init/vendor.microtrust.hardware.capi@2.0-service.rc
 vendor/etc/mtk_omx_core.cfg
 vendor/etc/partition_permission.sh
 vendor/etc/powercontable.xml
@@ -1091,7 +1105,6 @@ vendor/lib/libh264enc_sa.ca7.so
 vendor/lib/libHEVCdec_sa.ca7.android.so
 vendor/lib/libhevce_sb.ca7.android.so
 vendor/lib/libIMGegl.so
-vendor/lib/libimsg_log.so
 vendor/lib/libmemtrack_GL.so
 vendor/lib/libmhalImageCodec.so
 vendor/lib/libmmprofile.so
@@ -1119,7 +1132,6 @@ vendor/lib/libssl-ss.so
 vendor/lib/libstorage_otp.so
 vendor/lib/libSwJpgCodec.so
 vendor/lib/libsysenv.so
-vendor/lib/libTEECommon.so
 vendor/lib/libthha.so
 vendor/lib/libtqvalidate.so
 vendor/lib/libtranslator_mapi_v3.0.so
@@ -1143,7 +1155,6 @@ vendor/lib/libwapi.so
 vendor/lib/libwo.so
 vendor/lib/lib_iir.so
 vendor/lib/lib_speech_enh.so
-vendor/lib/vendor.microtrust.hardware.capi@2.0.so
 vendor/lib64/libabfadp.so
 vendor/lib64/libakl.so
 vendor/lib64/libasn1c_core.so
@@ -1169,7 +1180,6 @@ vendor/lib64/libforkexecwrap.so
 vendor/lib64/libglslcompiler.so
 vendor/lib64/libhevce_sb.ca7.android.so
 vendor/lib64/libIMGegl.so
-vendor/lib64/libimsg_log.so
 vendor/lib64/libmemtrack_GL.so
 vendor/lib64/libmmprofile.so
 vendor/lib64/libmnetlink_v104.so
@@ -1194,7 +1204,6 @@ vendor/lib64/libsrv_um.so
 vendor/lib64/libssl-ss.so
 vendor/lib64/libstereoinfoaccessor_vsdof.so
 vendor/lib64/libsysenv.so
-vendor/lib64/libTEECommon.so
 vendor/lib64/libthha.so
 vendor/lib64/libtqvalidate.so
 vendor/lib64/libtranslator_mapi_v3.0.so
@@ -1211,10 +1220,3 @@ vendor/lib64/libwo.so
 vendor/lib64/libwpfa.so
 vendor/lib64/lib_iir.so
 vendor/lib64/lib_speech_enh.so
-vendor/lib64/vendor.microtrust.hardware.capi@2.0.so
-vendor/thh/ta/7778c03fc30c4dd0a319ea29643d4d4b.ta
-vendor/thh/ta/8888c03fc30c4dd0a319ea29643d4d4b.ta
-vendor/thh/ta/c09c9c5daa504b78b0e46eda61556c3a.ta
-vendor/thh/ta/c1882f2d885e4e13a8c8e2622461b2fa.ta
-vendor/thh/ta/d78d338b1ac349e09f65f4efe179739d.ta
-vendor/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta
