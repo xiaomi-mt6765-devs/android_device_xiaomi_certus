@@ -923,6 +923,10 @@ vendor/etc/init/fuelgauged_init.rc
 vendor/etc/init/fuelgauged_nvram_init.rc
 vendor/lib/libfgauge_gm30.so
 
+# Neural Networks
+vendor/lib/libneuropilot_hal_utils.so
+vendor/lib64/libneuropilot_hal_utils.so
+
 # Perf
 
 # Power-Hardware
@@ -1130,7 +1134,6 @@ vendor/lib/libmp4enc_sa.ca7.so
 vendor/lib/libmp4enc_xa.ca7.so
 vendor/lib/libmpvr.so
 vendor/lib/libmsbc_mtk.so
-vendor/lib/libneuropilot_hal_utils.so
 vendor/lib/libopus.so
 vendor/lib/libperfctl_vendor.so
 vendor/lib/libpowerhal.so
@@ -1196,7 +1199,6 @@ vendor/lib64/libmmprofile.so
 vendor/lib64/libmnetlink_v104.so
 vendor/lib64/libmpvr.so
 vendor/lib64/libmsbc_mtk.so
-vendor/lib64/libneuropilot_hal_utils.so
 vendor/lib64/libperfctl_vendor.so
 vendor/lib64/libpowerhal.so
 vendor/lib64/libpowerhalwrap_vendor.so
