@@ -795,16 +795,10 @@ vendor/lib64/libstagefrighthw.so
 # Mediatek
 vendor/bin/hw/vendor.mediatek.hardware.mms@1.5-service
 vendor/bin/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-service
-vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service
 vendor/etc/init/vendor.mediatek.hardware.mms@1.5-service.rc
 vendor/etc/init/vendor.mediatek.hardware.mtkcodecservice@1.1-service.rc
-vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc
-vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc
-vendor/lib/hw/android.hardware.power@1.3-impl-mediatek.so
 vendor/lib/hw/vendor.mediatek.hardware.mms@1.5-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so
-vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.0-impl.so
-vendor/lib/hw/vendor.mediatek.hardware.power@2.1-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
 vendor/lib/libmtkares.so
 vendor/lib/libmtkaudio_utils_vendor.so
@@ -835,16 +829,10 @@ vendor/lib/vendor.mediatek.hardware.mms@1.3.so
 vendor/lib/vendor.mediatek.hardware.mms@1.4.so
 vendor/lib/vendor.mediatek.hardware.mms@1.5.so
 vendor/lib/vendor.mediatek.hardware.mtkcodecservice@1.1.so
-vendor/lib/vendor.mediatek.hardware.mtkpower@1.0.so
 vendor/lib/vendor.mediatek.hardware.netdagent@1.0.so
-vendor/lib/vendor.mediatek.hardware.power@2.0.so
-vendor/lib/vendor.mediatek.hardware.power@2.1.so
 vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so
-vendor/lib64/hw/android.hardware.power@1.3-impl-mediatek.so
 vendor/lib64/hw/vendor.mediatek.hardware.mms@1.5-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so
-vendor/lib64/hw/vendor.mediatek.hardware.mtkpower@1.0-impl.so
-vendor/lib64/hw/vendor.mediatek.hardware.power@2.1-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
 vendor/lib64/libmtk-ril.so
 vendor/lib64/libmtkares.so
@@ -874,7 +862,6 @@ vendor/lib64/vendor.mediatek.hardware.mms@1.3.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.4.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.5.so
 vendor/lib64/vendor.mediatek.hardware.mtkcodecservice@1.1.so
-vendor/lib64/vendor.mediatek.hardware.mtkpower@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex@1.1.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex@1.2.so
@@ -886,9 +873,6 @@ vendor/lib64/vendor.mediatek.hardware.mtkradioex@1.7.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex@1.8.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex@1.9.so
 vendor/lib64/vendor.mediatek.hardware.netdagent@1.0.so
-vendor/lib64/vendor.mediatek.hardware.power@1.1.so
-vendor/lib64/vendor.mediatek.hardware.power@2.0.so
-vendor/lib64/vendor.mediatek.hardware.power@2.1.so
 vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 
 # NVRAM
@@ -927,13 +911,41 @@ vendor/lib/libfgauge_gm30.so
 vendor/lib/libneuropilot_hal_utils.so
 vendor/lib64/libneuropilot_hal_utils.so
 
-# Perf
-
-# Power-Hardware
+# Power
+vendor/bin/hw/power_legacy_test_v_1_0
+vendor/bin/hw/power_native_test_v_1_0
+vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service
+vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc
+vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc
+vendor/etc/fstb.cfg
+vendor/etc/power_app_cfg.xml
+vendor/etc/powercontable.xml
+vendor/etc/powerscntbl.xml
+vendor/lib/hw/android.hardware.power@1.3-impl-mediatek.so
 vendor/lib/hw/power.default.so
 vendor/lib/hw/power.mt6765.so
+vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.0-impl.so
+vendor/lib/hw/vendor.mediatek.hardware.power@2.1-impl.so
+vendor/lib/libmmprofile.so
+vendor/lib/libperfctl_vendor.so
+vendor/lib/libpowerhal.so
+vendor/lib/libpowerhalwrap_vendor.so
+vendor/lib/vendor.mediatek.hardware.mtkpower@1.0.so
+vendor/lib/vendor.mediatek.hardware.power@2.0.so
+vendor/lib/vendor.mediatek.hardware.power@2.1.so
+vendor/lib64/hw/android.hardware.power@1.3-impl-mediatek.so
 vendor/lib64/hw/power.default.so
 vendor/lib64/hw/power.mt6765.so
+vendor/lib64/hw/vendor.mediatek.hardware.mtkpower@1.0-impl.so
+vendor/lib64/hw/vendor.mediatek.hardware.power@2.1-impl.so
+vendor/lib64/libmmprofile.so
+vendor/lib64/libperfctl_vendor.so
+vendor/lib64/libpowerhal.so
+vendor/lib64/libpowerhalwrap_vendor.so
+vendor/lib64/vendor.mediatek.hardware.mtkpower@1.0.so
+vendor/lib64/vendor.mediatek.hardware.power@1.1.so
+vendor/lib64/vendor.mediatek.hardware.power@2.0.so
+vendor/lib64/vendor.mediatek.hardware.power@2.1.so
 
 # Radio
 
@@ -1027,8 +1039,6 @@ vendor/bin/factory
 vendor/bin/fbconfig
 vendor/bin/gsm0710muxd
 vendor/bin/hw/mtkfusionrild
-vendor/bin/hw/power_legacy_test_v_1_0
-vendor/bin/hw/power_native_test_v_1_0
 vendor/bin/hw/vtservice_hidl
 vendor/bin/md_monitor
 vendor/bin/md_monitor_ctrl
@@ -1059,7 +1069,6 @@ vendor/etc/ecc_list_OP17.xml
 vendor/etc/ecc_list_OP18.xml
 vendor/etc/ecc_list_OP20.xml
 vendor/etc/factory.ini
-vendor/etc/fstb.cfg
 vendor/etc/init/atci_service.rc
 vendor/etc/init/audiocmdservice_atci.rc
 vendor/etc/init/bootperf.rc
@@ -1089,9 +1098,6 @@ vendor/etc/init/muxreport.rc
 vendor/etc/init/netdagent.rc
 vendor/etc/mtk_omx_core.cfg
 vendor/etc/partition_permission.sh
-vendor/etc/powercontable.xml
-vendor/etc/powerscntbl.xml
-vendor/etc/power_app_cfg.xml
 vendor/etc/smsdbvisitor.xml
 vendor/etc/special_pws_channel.xml
 vendor/etc/spn-conf-op09.xml
@@ -1128,16 +1134,12 @@ vendor/lib/libhevce_sb.ca7.android.so
 vendor/lib/libIMGegl.so
 vendor/lib/libmemtrack_GL.so
 vendor/lib/libmhalImageCodec.so
-vendor/lib/libmmprofile.so
 vendor/lib/libmnetlink_v104.so
 vendor/lib/libmp4enc_sa.ca7.so
 vendor/lib/libmp4enc_xa.ca7.so
 vendor/lib/libmpvr.so
 vendor/lib/libmsbc_mtk.so
 vendor/lib/libopus.so
-vendor/lib/libperfctl_vendor.so
-vendor/lib/libpowerhal.so
-vendor/lib/libpowerhalwrap_vendor.so
 vendor/lib/libPVROCL.so
 vendor/lib/libPVRScopeServices.so
 vendor/lib/libspeechparser_vendor.so
@@ -1195,13 +1197,9 @@ vendor/lib64/libglslcompiler.so
 vendor/lib64/libhevce_sb.ca7.android.so
 vendor/lib64/libIMGegl.so
 vendor/lib64/libmemtrack_GL.so
-vendor/lib64/libmmprofile.so
 vendor/lib64/libmnetlink_v104.so
 vendor/lib64/libmpvr.so
 vendor/lib64/libmsbc_mtk.so
-vendor/lib64/libperfctl_vendor.so
-vendor/lib64/libpowerhal.so
-vendor/lib64/libpowerhalwrap_vendor.so
 vendor/lib64/libPVROCL.so
 vendor/lib64/libPVRScopeServices.so
 vendor/lib64/libratconfig.so
