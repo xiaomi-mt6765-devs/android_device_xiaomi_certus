@@ -781,6 +781,10 @@ vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so
 
 # Lights
+vendor/lib/librgbwlightsensor.so
+vendor/lib64/librgbwlightsensor.so
+
+# Lights-Hardware
 vendor/lib/hw/lights.mt6765.so
 vendor/lib64/hw/lights.mt6765.so
 
@@ -1133,7 +1137,6 @@ vendor/lib/libpowerhal.so
 vendor/lib/libpowerhalwrap_vendor.so
 vendor/lib/libPVROCL.so
 vendor/lib/libPVRScopeServices.so
-vendor/lib/librgbwlightsensor.so
 vendor/lib/libspeechparser_vendor.so
 vendor/lib/libspeech_enh_lib.so
 vendor/lib/libsrv_um.so
@@ -1200,7 +1203,6 @@ vendor/lib64/libpowerhalwrap_vendor.so
 vendor/lib64/libPVROCL.so
 vendor/lib64/libPVRScopeServices.so
 vendor/lib64/libratconfig.so
-vendor/lib64/librgbwlightsensor.so
 vendor/lib64/librilfusion.so
 vendor/lib64/libspeechparser_vendor.so
 vendor/lib64/libspeech_enh_lib.so
