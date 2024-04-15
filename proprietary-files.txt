@@ -789,12 +789,10 @@ vendor/lib/libstagefrighthw.so
 vendor/lib64/libstagefrighthw.so
 
 # Mediatek
-vendor/bin/hw/android.hardware.sensors@2.0-service-mediatek
 vendor/bin/hw/vendor.mediatek.hardware.mms@1.5-service
 vendor/bin/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-service
 vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service
 vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service
-vendor/etc/init/android.hardware.sensors@2.0-service-mediatek.rc
 vendor/etc/init/vendor.mediatek.hardware.mms@1.5-service.rc
 vendor/etc/init/vendor.mediatek.hardware.mtkcodecservice@1.1-service.rc
 vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc
@@ -909,7 +907,13 @@ vendor/lib64/hw/power.mt6765.so
 # Radio
 
 # Sensors
+vendor/bin/hw/android.hardware.sensors@2.0-service-mediatek
+vendor/data/misc/pdc.txt
+vendor/etc/init/android.hardware.sensors@2.0-service-mediatek.rc
+vendor/lib/libhwm.so
 vendor/lib64/hw/sensors.mt6765.so
+vendor/lib64/libhwm.so
+vendor/lib64/libksensor.so
 vendor/lib64/libsensor_custom.so
 
 # Thermal - from motorola/hawaiipl_g/hawaiipl:12/STB32.36-101/101:user/release-keys
@@ -998,7 +1002,6 @@ vendor/bin/volte_md_status
 vendor/bin/volte_stack
 vendor/bin/volte_ua
 vendor/bin/wfca
-vendor/data/misc/pdc.txt
 vendor/etc/apdb/APDB_MT6765_S01__W2039
 vendor/etc/apdb/APDB_MT6765_S01__W2039_ENUM
 vendor/etc/aurisys_config.xml
@@ -1087,7 +1090,6 @@ vendor/lib/libh264dec_se.ca7.so
 vendor/lib/libh264enc_sa.ca7.so
 vendor/lib/libHEVCdec_sa.ca7.android.so
 vendor/lib/libhevce_sb.ca7.android.so
-vendor/lib/libhwm.so
 vendor/lib/libIMGegl.so
 vendor/lib/libimsg_log.so
 vendor/lib/libmemtrack_GL.so
@@ -1166,10 +1168,8 @@ vendor/lib64/libfile_op.so
 vendor/lib64/libforkexecwrap.so
 vendor/lib64/libglslcompiler.so
 vendor/lib64/libhevce_sb.ca7.android.so
-vendor/lib64/libhwm.so
 vendor/lib64/libIMGegl.so
 vendor/lib64/libimsg_log.so
-vendor/lib64/libksensor.so
 vendor/lib64/libmemtrack_GL.so
 vendor/lib64/libmmprofile.so
 vendor/lib64/libmnetlink_v104.so
