@@ -633,7 +633,6 @@ vendor/bin/ccci_rpcd
 vendor/bin/charon
 vendor/bin/eeprom_test
 vendor/bin/epdg_wod
-vendor/bin/factory
 vendor/bin/fbconfig
 vendor/bin/fuelgauged
 vendor/bin/fuelgauged_nvram
@@ -705,7 +704,6 @@ vendor/etc/ecc_list_OP12.xml
 vendor/etc/ecc_list_OP17.xml
 vendor/etc/ecc_list_OP18.xml
 vendor/etc/ecc_list_OP20.xml
-vendor/etc/factory.ini
 vendor/etc/fstb.cfg
 vendor/etc/init/atcid.rc
 vendor/etc/init/atci_service.rc
