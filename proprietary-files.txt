@@ -735,7 +735,11 @@ vendor/etc/security/cacerts_supl/f336e3d1.0
 
 # Gatekeeper
 vendor/lib/hw/gatekeeper.mt6765.so
+vendor/lib/hw/libSoftGatekeeper.so
+vendor/lib/libmtee.so
 vendor/lib64/hw/gatekeeper.mt6765.so
+vendor/lib64/hw/libSoftGatekeeper.so
+vendor/lib64/libmtee.so
 
 # Graphics
 vendor/lib/egl/egl.cfg
@@ -758,11 +762,16 @@ vendor/lib64/libOpenCL.so
 vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service
 vendor/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc
 vendor/lib/hw/keystore.mt6765.so
+vendor/lib/hw/kmsetkey.default.so
+vendor/lib/hw/kmsetkey.mt6765.so
 vendor/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so
 vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so
 vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so
 vendor/lib64/hw/keystore.mt6765.so
+vendor/lib64/hw/kmsetkey.default.so
+vendor/lib64/hw/kmsetkey.mt6765.so
 vendor/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so
+vendor/lib64/libkmsetkey.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so
 
@@ -1050,9 +1059,6 @@ vendor/etc/virtual-spn-conf-by-efgid1.xml
 vendor/etc/virtual-spn-conf-by-efpnn.xml
 vendor/etc/virtual-spn-conf-by-efspn.xml
 vendor/etc/virtual-spn-conf-by-imsi.xml
-vendor/lib/hw/kmsetkey.default.so
-vendor/lib/hw/kmsetkey.mt6765.so
-vendor/lib/hw/libSoftGatekeeper.so
 vendor/lib/libakl.so
 vendor/lib/libasn1c_core.so
 vendor/lib/libasn1c_mapi.so
@@ -1090,7 +1096,6 @@ vendor/lib/libmp4enc_sa.ca7.so
 vendor/lib/libmp4enc_xa.ca7.so
 vendor/lib/libmpvr.so
 vendor/lib/libmsbc_mtk.so
-vendor/lib/libmtee.so
 vendor/lib/libneuropilot_hal_utils.so
 vendor/lib/libnvram.so
 vendor/lib/libnvram_daemon_callback.so
@@ -1135,9 +1140,6 @@ vendor/lib/libwo.so
 vendor/lib/lib_iir.so
 vendor/lib/lib_speech_enh.so
 vendor/lib/vendor.microtrust.hardware.capi@2.0.so
-vendor/lib64/hw/kmsetkey.default.so
-vendor/lib64/hw/kmsetkey.mt6765.so
-vendor/lib64/hw/libSoftGatekeeper.so
 vendor/lib64/libabfadp.so
 vendor/lib64/libakl.so
 vendor/lib64/libasn1c_core.so
@@ -1165,14 +1167,12 @@ vendor/lib64/libhevce_sb.ca7.android.so
 vendor/lib64/libhwm.so
 vendor/lib64/libIMGegl.so
 vendor/lib64/libimsg_log.so
-vendor/lib64/libkmsetkey.so
 vendor/lib64/libksensor.so
 vendor/lib64/libmemtrack_GL.so
 vendor/lib64/libmmprofile.so
 vendor/lib64/libmnetlink_v104.so
 vendor/lib64/libmpvr.so
 vendor/lib64/libmsbc_mtk.so
-vendor/lib64/libmtee.so
 vendor/lib64/libneuropilot_hal_utils.so
 vendor/lib64/libnvram.so
 vendor/lib64/libnvram_daemon_callback.so
