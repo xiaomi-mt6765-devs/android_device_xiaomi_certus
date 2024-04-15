@@ -421,13 +421,45 @@ vendor/lib64/liboemcrypto.so|936a3b3ab6df239a0a36f36635749c2c78786225
 vendor/lib64/libwvhidl.so|b6b56aa9ae936b79c2a15f904ebf4923d9988e38
 vendor/lib64/mediadrm/libwvdrmengine.so|b197d579899dac2d6a8dff2a98d44b7a61aa1b95
 
+# Display
+vendor/lib/libdpframework.so
+vendor/lib/libged.so
+vendor/lib/libgpu_aux.so
+vendor/lib/libgpud.so
+vendor/lib/libgralloc_extra.so
+vendor/lib/libion_mtk.so
+vendor/lib/libion_ulit.so
+vendor/lib/libminiui.so
+vendor/lib/libpixelflinger.so
+vendor/lib/libpq_cust_base.so
+vendor/lib/libpq_prot.so
+vendor/lib/libvcodecdrv.so
+vendor/lib64/libacdk.so
+vendor/lib64/libdpframework.so
+vendor/lib64/libged.so
+vendor/lib64/libgpu_aux.so
+vendor/lib64/libgpud.so
+vendor/lib64/libgralloc_extra.so
+vendor/lib64/libhdrproc.so
+vendor/lib64/libion_mtk.so
+vendor/lib64/libion_ulit.so
+vendor/lib64/libminiui.so
+vendor/lib64/libpixelflinger.so
+vendor/lib64/libpq_cust_base.so
+vendor/lib64/libpq_prot.so
+
 # Display-Hardware
 vendor/bin/hw/android.hardware.graphics.allocator@2.0-service
 vendor/bin/hw/android.hardware.graphics.composer@2.1-service
 vendor/bin/hw/android.hardware.memtrack@1.0-service
+vendor/bin/hw/vendor.mediatek.hardware.gpu@1.0-service
+vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service
 vendor/etc/init/android.hardware.graphics.allocator@2.0-service.rc
 vendor/etc/init/android.hardware.graphics.composer@2.1-service.rc
 vendor/etc/init/android.hardware.memtrack@1.0-service.rc
+vendor/etc/init/vendor.mediatek.hardware.gpu@1.0-service.rc
+vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc
+-vendor/etc/vintf/manifest/android.hardware.gpu@1.0-service.xml
 vendor/lib/hw/android.hardware.graphics.allocator@2.0-impl.so
 vendor/lib/hw/android.hardware.graphics.composer@2.1-impl.so
 vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl-2.1.so
@@ -435,7 +467,13 @@ vendor/lib/hw/android.hardware.memtrack@1.0-impl.so
 vendor/lib/hw/gralloc.default.so
 vendor/lib/hw/gralloc.mt6765.so
 vendor/lib/hw/memtrack.mt6765.so
+vendor/lib/hw/vendor.mediatek.hardware.pq@2.3-impl.so
 vendor/lib/libdrm.so
+vendor/lib/vendor.mediatek.hardware.gpu@1.0.so
+vendor/lib/vendor.mediatek.hardware.pq@2.0.so
+vendor/lib/vendor.mediatek.hardware.pq@2.1.so
+vendor/lib/vendor.mediatek.hardware.pq@2.2.so
+vendor/lib/vendor.mediatek.hardware.pq@2.3.so
 vendor/lib64/hw/android.hardware.graphics.allocator@2.0-impl.so
 vendor/lib64/hw/android.hardware.graphics.composer@2.1-impl.so
 vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl-2.1.so
@@ -444,7 +482,13 @@ vendor/lib64/hw/gralloc.default.so
 vendor/lib64/hw/gralloc.mt6765.so
 vendor/lib64/hw/hwcomposer.mt6765.so
 vendor/lib64/hw/memtrack.mt6765.so
+vendor/lib64/hw/vendor.mediatek.hardware.pq@2.3-impl.so|4cfad70bdef3d9469e14199a517a44e043d9f6df
 vendor/lib64/libdrm.so
+vendor/lib64/vendor.mediatek.hardware.gpu@1.0.so
+vendor/lib64/vendor.mediatek.hardware.pq@2.0.so
+vendor/lib64/vendor.mediatek.hardware.pq@2.1.so
+vendor/lib64/vendor.mediatek.hardware.pq@2.2.so
+vendor/lib64/vendor.mediatek.hardware.pq@2.3.so
 
 # Fingerprint
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
@@ -526,27 +570,22 @@ vendor/lib64/libstagefrighthw.so
 
 # Mediatek
 vendor/bin/hw/android.hardware.sensors@2.0-service-mediatek
-vendor/bin/hw/vendor.mediatek.hardware.gpu@1.0-service
 vendor/bin/hw/vendor.mediatek.hardware.mms@1.5-service
 vendor/bin/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-service
 vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service
 vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service
-vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service
 vendor/etc/init/android.hardware.sensors@2.0-service-mediatek.rc
-vendor/etc/init/vendor.mediatek.hardware.gpu@1.0-service.rc
 vendor/etc/init/vendor.mediatek.hardware.mms@1.5-service.rc
 vendor/etc/init/vendor.mediatek.hardware.mtkcodecservice@1.1-service.rc
 vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc
 vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc
 vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc
-vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc
 vendor/lib/hw/android.hardware.power@1.3-impl-mediatek.so
 vendor/lib/hw/vendor.mediatek.hardware.mms@1.5-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.0-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.power@2.1-impl.so
-vendor/lib/hw/vendor.mediatek.hardware.pq@2.3-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
 vendor/lib/libmtkares.so
 vendor/lib/libmtkaudio_utils_vendor.so
@@ -569,7 +608,6 @@ vendor/lib/libmtkrillog.so
 vendor/lib/libmtkshifter_vendor.so
 vendor/lib/libMtkSpeechEnh.so
 vendor/lib/libmtksysutils.so
-vendor/lib/vendor.mediatek.hardware.gpu@1.0.so
 vendor/lib/vendor.mediatek.hardware.mdmonitor@1.0.so
 vendor/lib/vendor.mediatek.hardware.mms@1.0.so
 vendor/lib/vendor.mediatek.hardware.mms@1.1.so
@@ -584,10 +622,6 @@ vendor/lib/vendor.mediatek.hardware.nvram@1.0.so
 vendor/lib/vendor.mediatek.hardware.nvram@1.1.so
 vendor/lib/vendor.mediatek.hardware.power@2.0.so
 vendor/lib/vendor.mediatek.hardware.power@2.1.so
-vendor/lib/vendor.mediatek.hardware.pq@2.0.so
-vendor/lib/vendor.mediatek.hardware.pq@2.1.so
-vendor/lib/vendor.mediatek.hardware.pq@2.2.so
-vendor/lib/vendor.mediatek.hardware.pq@2.3.so
 vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so
 vendor/lib64/hw/android.hardware.power@1.3-impl-mediatek.so
 vendor/lib64/hw/vendor.mediatek.hardware.mms@1.5-impl.so
@@ -595,7 +629,6 @@ vendor/lib64/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.mtkpower@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.power@2.1-impl.so
-vendor/lib64/hw/vendor.mediatek.hardware.pq@2.3-impl.so|4cfad70bdef3d9469e14199a517a44e043d9f6df
 vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
 vendor/lib64/libmtk-ril.so
 vendor/lib64/libmtkares.so
@@ -621,7 +654,6 @@ vendor/lib64/vendor.mediatek.hardware.atci@1.0.so
 vendor/lib64/vendor.mediatek.hardware.engineermode@1.0.so
 vendor/lib64/vendor.mediatek.hardware.engineermode@1.1.so
 vendor/lib64/vendor.mediatek.hardware.engineermode@1.2.so
-vendor/lib64/vendor.mediatek.hardware.gpu@1.0.so
 vendor/lib64/vendor.mediatek.hardware.lbs@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mdmonitor@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.0.so
@@ -648,16 +680,11 @@ vendor/lib64/vendor.mediatek.hardware.nvram@1.1.so
 vendor/lib64/vendor.mediatek.hardware.power@1.1.so
 vendor/lib64/vendor.mediatek.hardware.power@2.0.so
 vendor/lib64/vendor.mediatek.hardware.power@2.1.so
-vendor/lib64/vendor.mediatek.hardware.pq@2.0.so
-vendor/lib64/vendor.mediatek.hardware.pq@2.1.so
-vendor/lib64/vendor.mediatek.hardware.pq@2.2.so
-vendor/lib64/vendor.mediatek.hardware.pq@2.3.so
 vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 
 # Perf
 
 # Power-Hardware
--vendor/etc/vintf/manifest/android.hardware.gpu@1.0-service.xml
 vendor/lib/hw/power.default.so
 vendor/lib/hw/power.mt6765.so
 vendor/lib64/hw/power.default.so
@@ -1029,15 +1056,10 @@ vendor/lib/libcurl-ss.so
 vendor/lib/libcurl_xcap_md.so
 vendor/lib/libcustom_nvram.so
 vendor/lib/libcvsd_mtk.so
-vendor/lib/libdpframework.so
 vendor/lib/libDR.so
 vendor/lib/libfgauge_gm30.so
 vendor/lib/libfile_op.so
-vendor/lib/libged.so
 vendor/lib/libglslcompiler.so
-vendor/lib/libgpud.so
-vendor/lib/libgpu_aux.so
-vendor/lib/libgralloc_extra.so
 vendor/lib/libh264dec_customize.so
 vendor/lib/libh264dec_sa.ca7.so
 vendor/lib/libh264dec_sd.ca7.so
@@ -1049,12 +1071,9 @@ vendor/lib/libhwm.so
 vendor/lib/libhydra.so
 vendor/lib/libIMGegl.so
 vendor/lib/libimsg_log.so
-vendor/lib/libion_mtk.so
-vendor/lib/libion_ulit.so
 vendor/lib/libipsec_ims_shr.so
 vendor/lib/libmemtrack_GL.so
 vendor/lib/libmhalImageCodec.so
-vendor/lib/libminiui.so
 vendor/lib/libmmprofile.so
 vendor/lib/libmnetlink_v104.so
 vendor/lib/libmnl.so
@@ -1070,11 +1089,8 @@ vendor/lib/libnvram_platform.so
 vendor/lib/libnvram_sec.so
 vendor/lib/libopus.so
 vendor/lib/libperfctl_vendor.so
-vendor/lib/libpixelflinger.so
 vendor/lib/libpowerhal.so
 vendor/lib/libpowerhalwrap_vendor.so
-vendor/lib/libpq_cust_base.so
-vendor/lib/libpq_prot.so
 vendor/lib/libPVROCL.so
 vendor/lib/libPVRScopeServices.so
 vendor/lib/librgbwlightsensor.so
@@ -1097,7 +1113,6 @@ vendor/lib/libusc.so
 vendor/lib/libutinterface_custom_md.so
 vendor/lib/libutinterface_md.so
 vendor/lib/libvc1dec_sa.ca7.so
-vendor/lib/libvcodecdrv.so
 vendor/lib/libvcodec_oal.so
 vendor/lib/libvcodec_utility.so
 vendor/lib/libverno.so
@@ -1119,7 +1134,6 @@ vendor/lib64/hw/kmsetkey.mt6765.so
 vendor/lib64/hw/libSoftGatekeeper.so
 vendor/lib64/lbs_hidl_service-impl.so
 vendor/lib64/libabfadp.so
-vendor/lib64/libacdk.so
 vendor/lib64/libakl.so
 vendor/lib64/libasn1c_core.so
 vendor/lib64/libasn1c_mapi.so
@@ -1137,30 +1151,21 @@ vendor/lib64/libcurl-ss.so
 vendor/lib64/libcurl_xcap_md.so
 vendor/lib64/libcustom_nvram.so
 vendor/lib64/libcvsd_mtk.so
-vendor/lib64/libdpframework.so
 vendor/lib64/libem_camera_jni.so
 vendor/lib64/libem_sensor_jni.so
 vendor/lib64/libfft_vendor.so
 vendor/lib64/libfile_op.so
 vendor/lib64/libforkexecwrap.so
-vendor/lib64/libged.so
 vendor/lib64/libglslcompiler.so
-vendor/lib64/libgpud.so
-vendor/lib64/libgpu_aux.so
-vendor/lib64/libgralloc_extra.so
-vendor/lib64/libhdrproc.so
 vendor/lib64/libhevce_sb.ca7.android.so
 vendor/lib64/libhwm.so
 vendor/lib64/libhydra.so
 vendor/lib64/libIMGegl.so
 vendor/lib64/libimsg_log.so
-vendor/lib64/libion_mtk.so
-vendor/lib64/libion_ulit.so
 vendor/lib64/libipsec_ims_shr.so
 vendor/lib64/libkmsetkey.so
 vendor/lib64/libksensor.so
 vendor/lib64/libmemtrack_GL.so
-vendor/lib64/libminiui.so
 vendor/lib64/libmmprofile.so
 vendor/lib64/libmnetlink_v104.so
 vendor/lib64/libmpvr.so
@@ -1172,11 +1177,8 @@ vendor/lib64/libnvram_daemon_callback.so
 vendor/lib64/libnvram_platform.so
 vendor/lib64/libnvram_sec.so
 vendor/lib64/libperfctl_vendor.so
-vendor/lib64/libpixelflinger.so
 vendor/lib64/libpowerhal.so
 vendor/lib64/libpowerhalwrap_vendor.so
-vendor/lib64/libpq_cust_base.so
-vendor/lib64/libpq_prot.so
 vendor/lib64/libPVROCL.so
 vendor/lib64/libPVRScopeServices.so
 vendor/lib64/libratconfig.so
