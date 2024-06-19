@@ -847,9 +847,6 @@ vendor/etc/init/init.wmt_drv.rc
 # Mediatek
 vendor/lib/libMtkSpeechEnh.so
 vendor/lib64/libMtkSpeechEnh.so
-vendor/lib64/vendor.mediatek.hardware.engineermode@1.0.so
-vendor/lib64/vendor.mediatek.hardware.engineermode@1.1.so
-vendor/lib64/vendor.mediatek.hardware.engineermode@1.2.so
 
 # NVRAM
 vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service
@@ -1117,10 +1114,6 @@ vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.0.so
 vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.1.so
 
 # Misc
--vendor/app/EmCamera/EmCamera.apk
-vendor/app/EmCamera/lib/arm64/libem_camera_jni.so
-vendor/app/SensorHub/lib/arm64/libem_sensor_jni.so
--vendor/app/SensorHub/SensorHub.apk
 vendor/bin/audiocmdservice_atci
 vendor/bin/autobt
 vendor/bin/factory
@@ -1184,8 +1177,6 @@ vendor/lib64/libaurisysdemo.so
 vendor/lib64/libbessound_hd_mtk_vendor.so
 vendor/lib64/libblisrc32_vendor.so
 vendor/lib64/libcvsd_mtk.so
-vendor/lib64/libem_camera_jni.so
-vendor/lib64/libem_sensor_jni.so
 vendor/lib64/libhdrproc.so
 vendor/lib64/libmmprofile.so
 vendor/lib64/libmpvr.so
