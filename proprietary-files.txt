@@ -837,6 +837,13 @@ vendor/lib64/libvcodec_oal.so
 vendor/lib64/libvcodec_utility.so
 vendor/lib64/vendor.mediatek.hardware.mtkcodecservice@1.1.so
 
+# Modules Init
+vendor/etc/init/init.bt_drv.rc
+vendor/etc/init/init.gps_drv.rc
+vendor/etc/init/init.fmradio_drv.rc
+vendor/etc/init/init.wlan_drv.rc
+vendor/etc/init/init.wmt_drv.rc
+
 # Mediatek
 vendor/lib/libMtkSpeechEnh.so
 vendor/lib64/libMtkSpeechEnh.so
@@ -1124,11 +1131,6 @@ vendor/etc/factory.ini
 vendor/etc/fstb.cfg
 vendor/etc/init/audiocmdservice_atci.rc
 vendor/etc/init/bootperf.rc
-vendor/etc/init/init.bt_drv.rc
-vendor/etc/init/init.fmradio_drv.rc
-vendor/etc/init/init.gps_drv.rc
-vendor/etc/init/init.wlan_drv.rc
-vendor/etc/init/init.wmt_drv.rc
 vendor/etc/partition_permission.sh
 vendor/etc/throttle.sh
 vendor/etc/vendor-apns-conf.xml
