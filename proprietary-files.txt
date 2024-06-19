@@ -401,6 +401,7 @@ vendor/lib64/libwvhidl.so|b6b56aa9ae936b79c2a15f904ebf4923d9988e38
 vendor/lib64/mediadrm/libwvdrmengine.so|b197d579899dac2d6a8dff2a98d44b7a61aa1b95
 
 # Display
+-vendor/etc/vintf/manifest/android.hardware.gpu@1.0-service.xml
 vendor/bin/hw/android.hardware.graphics.allocator@2.0-service
 vendor/bin/hw/android.hardware.graphics.composer@2.1-service
 vendor/bin/hw/android.hardware.memtrack@1.0-service
@@ -837,27 +838,11 @@ vendor/lib64/libvcodec_utility.so
 vendor/lib64/vendor.mediatek.hardware.mtkcodecservice@1.1.so
 
 # Mediatek
-vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service
-vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc
-vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc
-vendor/lib/hw/android.hardware.power@1.3-impl-mediatek.so
-vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.0-impl.so
-vendor/lib/hw/vendor.mediatek.hardware.power@2.1-impl.so
 vendor/lib/libMtkSpeechEnh.so
-vendor/lib/vendor.mediatek.hardware.mtkpower@1.0.so
-vendor/lib/vendor.mediatek.hardware.power@2.0.so
-vendor/lib/vendor.mediatek.hardware.power@2.1.so
-vendor/lib64/hw/android.hardware.power@1.3-impl-mediatek.so
-vendor/lib64/hw/vendor.mediatek.hardware.mtkpower@1.0-impl.so
-vendor/lib64/hw/vendor.mediatek.hardware.power@2.1-impl.so
 vendor/lib64/libMtkSpeechEnh.so
 vendor/lib64/vendor.mediatek.hardware.engineermode@1.0.so
 vendor/lib64/vendor.mediatek.hardware.engineermode@1.1.so
 vendor/lib64/vendor.mediatek.hardware.engineermode@1.2.so
-vendor/lib64/vendor.mediatek.hardware.mtkpower@1.0.so
-vendor/lib64/vendor.mediatek.hardware.power@1.1.so
-vendor/lib64/vendor.mediatek.hardware.power@2.0.so
-vendor/lib64/vendor.mediatek.hardware.power@2.1.so
 
 # NVRAM
 vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service
@@ -891,12 +876,44 @@ vendor/etc/init/fuelgauged_init.rc
 vendor/etc/init/fuelgauged_nvram_init.rc
 vendor/lib/libfgauge_gm30.so
 
-# Power-Hardware
--vendor/etc/vintf/manifest/android.hardware.gpu@1.0-service.xml
+# Power (Hardware)
+vendor/bin/hw/power_legacy_test_v_1_0
+vendor/bin/hw/power_native_test_v_1_0
+vendor/etc/power_app_cfg.xml
+vendor/etc/powercontable.xml
+vendor/etc/powerscntbl.xml
 vendor/lib/hw/power.default.so
 vendor/lib/hw/power.mt6765.so
 vendor/lib64/hw/power.default.so
 vendor/lib64/hw/power.mt6765.so
+
+# Power (Interfaces - mtkpower)
+vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service
+vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc
+vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc
+vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.0-impl.so
+vendor/lib/vendor.mediatek.hardware.mtkpower@1.0.so
+vendor/lib64/hw/vendor.mediatek.hardware.mtkpower@1.0-impl.so
+vendor/lib64/vendor.mediatek.hardware.mtkpower@1.0.so
+
+# Power (Interfaces - android)
+vendor/lib/hw/android.hardware.power@1.3-impl-mediatek.so
+vendor/lib64/hw/android.hardware.power@1.3-impl-mediatek.so
+
+# Power (Interfaces - vendor.mediatek)
+vendor/lib/hw/vendor.mediatek.hardware.power@2.1-impl.so
+vendor/lib/vendor.mediatek.hardware.power@2.0.so
+vendor/lib/vendor.mediatek.hardware.power@2.1.so
+vendor/lib64/hw/vendor.mediatek.hardware.power@2.1-impl.so
+vendor/lib64/vendor.mediatek.hardware.power@1.1.so
+vendor/lib64/vendor.mediatek.hardware.power@2.0.so
+vendor/lib64/vendor.mediatek.hardware.power@2.1.so
+
+# Power (Libraries)
+vendor/lib/libpowerhal.so
+vendor/lib/libpowerhalwrap_vendor.so
+vendor/lib64/libpowerhal.so
+vendor/lib64/libpowerhalwrap_vendor.so
 
 # Radio
 vendor/bin/hw/mtkfusionrild
@@ -1100,8 +1117,6 @@ vendor/app/SensorHub/lib/arm64/libem_sensor_jni.so
 vendor/bin/audiocmdservice_atci
 vendor/bin/autobt
 vendor/bin/factory
-vendor/bin/hw/power_legacy_test_v_1_0
-vendor/bin/hw/power_native_test_v_1_0
 vendor/bin/stp_dump3
 vendor/data/misc/pdc.txt
 vendor/etc/aurisys_config.xml
@@ -1115,9 +1130,6 @@ vendor/etc/init/init.gps_drv.rc
 vendor/etc/init/init.wlan_drv.rc
 vendor/etc/init/init.wmt_drv.rc
 vendor/etc/partition_permission.sh
-vendor/etc/powercontable.xml
-vendor/etc/powerscntbl.xml
-vendor/etc/power_app_cfg.xml
 vendor/etc/throttle.sh
 vendor/etc/vendor-apns-conf.xml
 vendor/lib/fpc_hal_extension.so
@@ -1141,8 +1153,6 @@ vendor/lib/libmsbc_mtk.so
 vendor/lib/libneuropilot_hal_utils.so
 vendor/lib/libopus.so
 vendor/lib/libperfctl_vendor.so
-vendor/lib/libpowerhal.so
-vendor/lib/libpowerhalwrap_vendor.so
 vendor/lib/libPVROCL.so
 vendor/lib/libPVRScopeServices.so
 vendor/lib/librgbwlightsensor.so
@@ -1180,8 +1190,6 @@ vendor/lib64/libmpvr.so
 vendor/lib64/libmsbc_mtk.so
 vendor/lib64/libneuropilot_hal_utils.so
 vendor/lib64/libperfctl_vendor.so
-vendor/lib64/libpowerhal.so
-vendor/lib64/libpowerhalwrap_vendor.so
 vendor/lib64/libPVROCL.so
 vendor/lib64/libPVRScopeServices.so
 vendor/lib64/librgbwlightsensor.so
