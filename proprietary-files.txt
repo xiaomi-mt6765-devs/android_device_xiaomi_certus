@@ -13,28 +13,52 @@ vendor/lib64/libladder.so|47ab171fde2026c25c0c63f0af9bfcee3fcd74a9
 vendor/lib64/libudf.so|00563b48abe3e19856133a87775363a9ef98c049
 
 # Audio
-vendor/lib/libaudiocompensationfilterc.so
+vendor/lib/libMtkSpeechEnh.so
+vendor/lib/lib_iir.so
+vendor/lib/lib_speech_enh.so
+vendor/lib/libaudio_param_parser-vnd.so
 vendor/lib/libaudiocompensationfilter_vendor.so
-vendor/lib/libaudiocomponentenginec.so
+vendor/lib/libaudiocompensationfilterc.so
 vendor/lib/libaudiocomponentengine_vendor.so
+vendor/lib/libaudiocomponentenginec.so
 vendor/lib/libaudiocustparam_vendor.so
 vendor/lib/libaudiodcrflt_vendor.so
 vendor/lib/libaudiofmtconv.so
 vendor/lib/libaudioloudc.so
 vendor/lib/libaudioprimarydevicehalifclient.so
 vendor/lib/libaudiotoolkit_vendor.so
-vendor/lib/libaudio_param_parser-vnd.so
-vendor/lib64/libaudiocompensationfilterc.so
+vendor/lib/libaurisysdemo.so
+vendor/lib/libbessound_hd_mtk_vendor.so
+vendor/lib/libblisrc32_vendor.so
+vendor/lib/libcvsd_mtk.so
+vendor/lib/libmsbc_mtk.so
+vendor/lib/libspeech_enh_lib.so
+vendor/lib/libspeechparser_vendor.so
+vendor/lib64/libMtkSpeechEnh.so
+vendor/lib64/lib_iir.so
+vendor/lib64/lib_speech_enh.so
+vendor/lib64/libaudio_param_parser-vnd.so
 vendor/lib64/libaudiocompensationfilter_vendor.so
-vendor/lib64/libaudiocomponentenginec.so
+vendor/lib64/libaudiocompensationfilterc.so
 vendor/lib64/libaudiocomponentengine_vendor.so
+vendor/lib64/libaudiocomponentenginec.so
 vendor/lib64/libaudiocustparam_vendor.so
 vendor/lib64/libaudiodcrflt_vendor.so
 vendor/lib64/libaudiofmtconv.so
 vendor/lib64/libaudioloudc.so
 vendor/lib64/libaudioprimarydevicehalifclient.so
 vendor/lib64/libaudiotoolkit_vendor.so
-vendor/lib64/libaudio_param_parser-vnd.so
+vendor/lib64/libaurisysdemo.so
+vendor/lib64/libbessound_hd_mtk_vendor.so
+vendor/lib64/libblisrc32_vendor.so
+vendor/lib64/libcvsd_mtk.so
+vendor/lib64/libmsbc_mtk.so
+vendor/lib64/libspeech_enh_lib.so
+vendor/lib64/libspeechparser_vendor.so
+
+# Audio (Bin)
+vendor/bin/audiocmdservice_atci
+vendor/etc/init/audiocmdservice_atci.rc
 
 # Audio-Hardware
 vendor/bin/hw/android.hardware.audio@5.0-service-mediatek
@@ -154,6 +178,7 @@ vendor/etc/audio_param/Volume_ParamUnitDesc.xml
 vendor/etc/audio_param/VOW_AudioParam.xml
 vendor/etc/audio_param/VOW_ParamUnitDesc.xml
 vendor/etc/aurisys_param/Speech_AudioParam.xml
+vendor/etc/aurisys_config.xml
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-mediatek
@@ -844,10 +869,6 @@ vendor/etc/init/init.fmradio_drv.rc
 vendor/etc/init/init.wlan_drv.rc
 vendor/etc/init/init.wmt_drv.rc
 
-# Mediatek
-vendor/lib/libMtkSpeechEnh.so
-vendor/lib64/libMtkSpeechEnh.so
-
 # NVRAM
 vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service
 vendor/bin/atcid
@@ -1114,7 +1135,6 @@ vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.0.so
 vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.1.so
 
 # Misc
-vendor/bin/audiocmdservice_atci
 vendor/bin/autobt
 vendor/bin/factory
 vendor/bin/stp_dump3
@@ -1122,7 +1142,6 @@ vendor/data/misc/pdc.txt
 vendor/etc/aurisys_config.xml
 vendor/etc/factory.ini
 vendor/etc/fstb.cfg
-vendor/etc/init/audiocmdservice_atci.rc
 vendor/etc/init/bootperf.rc
 vendor/etc/partition_permission.sh
 vendor/etc/throttle.sh
@@ -1136,23 +1155,16 @@ vendor/lib/libaal_mtk.so
 vendor/lib/libakl.so
 vendor/lib/libasn1c_core.so
 vendor/lib/libasn1c_mapi.so
-vendor/lib/libaurisysdemo.so
-vendor/lib/libbessound_hd_mtk_vendor.so
-vendor/lib/libblisrc32_vendor.so
-vendor/lib/libcvsd_mtk.so
 vendor/lib/libJpgDecPipe.so
 vendor/lib/libmhalImageCodec.so
 vendor/lib/libmmprofile.so
 vendor/lib/libmpvr.so
-vendor/lib/libmsbc_mtk.so
 vendor/lib/libneuropilot_hal_utils.so
 vendor/lib/libopus.so
 vendor/lib/libperfctl_vendor.so
 vendor/lib/libPVROCL.so
 vendor/lib/libPVRScopeServices.so
 vendor/lib/librgbwlightsensor.so
-vendor/lib/libspeechparser_vendor.so
-vendor/lib/libspeech_enh_lib.so
 vendor/lib/libsrv_um.so
 vendor/lib/libSwJpgCodec.so
 vendor/lib/libtqvalidate.so
@@ -1163,8 +1175,6 @@ vendor/lib/libusc.so
 vendor/lib/libvorbisidec.so
 vendor/lib/libvpx.so
 vendor/lib/libwapi.so
-vendor/lib/lib_iir.so
-vendor/lib/lib_speech_enh.so
 vendor/lib64/libaalservice.so
 vendor/lib64/libaal_cust.so
 vendor/lib64/libaal_key.so
@@ -1173,21 +1183,14 @@ vendor/lib64/libabfadp.so
 vendor/lib64/libakl.so
 vendor/lib64/libasn1c_core.so
 vendor/lib64/libasn1c_mapi.so
-vendor/lib64/libaurisysdemo.so
-vendor/lib64/libbessound_hd_mtk_vendor.so
-vendor/lib64/libblisrc32_vendor.so
-vendor/lib64/libcvsd_mtk.so
 vendor/lib64/libhdrproc.so
 vendor/lib64/libmmprofile.so
 vendor/lib64/libmpvr.so
-vendor/lib64/libmsbc_mtk.so
 vendor/lib64/libneuropilot_hal_utils.so
 vendor/lib64/libperfctl_vendor.so
 vendor/lib64/libPVROCL.so
 vendor/lib64/libPVRScopeServices.so
 vendor/lib64/librgbwlightsensor.so
-vendor/lib64/libspeechparser_vendor.so
-vendor/lib64/libspeech_enh_lib.so
 vendor/lib64/libsrv_um.so
 vendor/lib64/libtqvalidate.so
 vendor/lib64/libtranslator_mapi_v3.0.so
@@ -1195,5 +1198,3 @@ vendor/lib64/libtranslator_utils.so
 vendor/lib64/libufwriter.so
 vendor/lib64/libusc.so
 vendor/lib64/libwapi.so
-vendor/lib64/lib_iir.so
-vendor/lib64/lib_speech_enh.so
