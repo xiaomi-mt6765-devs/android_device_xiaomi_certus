@@ -813,7 +813,17 @@ vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so
 
 # Lights
 vendor/lib/hw/lights.mt6765.so
+vendor/lib/libaal_cust.so
+vendor/lib/libaal_key.so
+vendor/lib/libaal_mtk.so
+vendor/lib/libaalservice.so
+vendor/lib/librgbwlightsensor.so
 vendor/lib64/hw/lights.mt6765.so
+vendor/lib64/libaal_cust.so
+vendor/lib64/libaal_key.so
+vendor/lib64/libaal_mtk.so
+vendor/lib64/libaalservice.so
+vendor/lib64/librgbwlightsensor.so
 
 # Media
 vendor/bin/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-service
@@ -1148,10 +1158,6 @@ vendor/etc/throttle.sh
 vendor/etc/vendor-apns-conf.xml
 vendor/lib/fpc_hal_extension.so
 vendor/lib/fpc_tac.so
-vendor/lib/libaalservice.so
-vendor/lib/libaal_cust.so
-vendor/lib/libaal_key.so
-vendor/lib/libaal_mtk.so
 vendor/lib/libakl.so
 vendor/lib/libasn1c_core.so
 vendor/lib/libasn1c_mapi.so
@@ -1164,7 +1170,6 @@ vendor/lib/libopus.so
 vendor/lib/libperfctl_vendor.so
 vendor/lib/libPVROCL.so
 vendor/lib/libPVRScopeServices.so
-vendor/lib/librgbwlightsensor.so
 vendor/lib/libsrv_um.so
 vendor/lib/libSwJpgCodec.so
 vendor/lib/libtqvalidate.so
@@ -1175,10 +1180,6 @@ vendor/lib/libusc.so
 vendor/lib/libvorbisidec.so
 vendor/lib/libvpx.so
 vendor/lib/libwapi.so
-vendor/lib64/libaalservice.so
-vendor/lib64/libaal_cust.so
-vendor/lib64/libaal_key.so
-vendor/lib64/libaal_mtk.so
 vendor/lib64/libabfadp.so
 vendor/lib64/libakl.so
 vendor/lib64/libasn1c_core.so
@@ -1190,7 +1191,6 @@ vendor/lib64/libneuropilot_hal_utils.so
 vendor/lib64/libperfctl_vendor.so
 vendor/lib64/libPVROCL.so
 vendor/lib64/libPVRScopeServices.so
-vendor/lib64/librgbwlightsensor.so
 vendor/lib64/libsrv_um.so
 vendor/lib64/libtqvalidate.so
 vendor/lib64/libtranslator_mapi_v3.0.so
