@@ -368,7 +368,9 @@ vendor/lib64/hw/gps.default.so
 
 # Gatekeeper
 vendor/lib/hw/gatekeeper.mt6765.so
+vendor/lib/hw/libSoftGatekeeper.so
 vendor/lib64/hw/gatekeeper.mt6765.so
+vendor/lib64/hw/libSoftGatekeeper.so
 
 # Graphics
 vendor/lib/egl/egl.cfg
@@ -391,11 +393,16 @@ vendor/lib64/libOpenCL.so
 vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service
 vendor/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc
 vendor/lib/hw/keystore.mt6765.so
+vendor/lib/hw/kmsetkey.default.so
+vendor/lib/hw/kmsetkey.mt6765.so
 vendor/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so
 vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so
 vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so
 vendor/lib64/hw/keystore.mt6765.so
+vendor/lib64/hw/kmsetkey.default.so
+vendor/lib64/hw/kmsetkey.mt6765.so
 vendor/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so
+vendor/lib64/libkmsetkey.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so
 
@@ -550,6 +557,27 @@ vendor/lib64/hw/power.mt6765.so
 vendor/lib64/hw/sensors.mt6765.so
 vendor/lib64/libsensor_custom.so
 
+# TEE
+vendor/bin/hw/vendor.microtrust.hardware.capi@2.0-service
+vendor/bin/teei_daemon
+vendor/etc/init/microtrust.rc
+vendor/etc/init/vendor.microtrust.hardware.capi@2.0-service.rc
+vendor/lib/libTEECommon.so
+vendor/lib/libimsg_log.so
+vendor/lib/libmtee.so
+vendor/lib/vendor.microtrust.hardware.capi@2.0.so
+vendor/lib64/libTEECommon.so
+vendor/lib64/libimsg_log.so
+vendor/lib64/libmtee.so
+vendor/lib64/vendor.microtrust.hardware.capi@2.0.so
+
+# TEE-TA
+vendor/thh/ta/7778c03fc30c4dd0a319ea29643d4d4b.ta
+vendor/thh/ta/8888c03fc30c4dd0a319ea29643d4d4b.ta
+vendor/thh/ta/c09c9c5daa504b78b0e46eda61556c3a.ta
+vendor/thh/ta/c1882f2d885e4e13a8c8e2622461b2fa.ta
+vendor/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta
+
 # Thermal - from motorola/hawaiipl_g/hawaiipl:12/STB32.36-101/101:user/release-keys
 vendor/bin/hw/android.hardware.thermal@2.0-service.mtk|2201c319b8d26b7c86be912d0642de68a622a48e
 vendor/bin/thermal_manager|f5ce8dbd14d6a37f838d76768abf87ed065a454e
@@ -614,7 +642,6 @@ vendor/bin/gsm0710muxd
 vendor/bin/hw/mtkfusionrild
 vendor/bin/hw/power_legacy_test_v_1_0
 vendor/bin/hw/power_native_test_v_1_0
-vendor/bin/hw/vendor.microtrust.hardware.capi@2.0-service
 vendor/bin/hw/vtservice_hidl
 vendor/bin/ipsec_mon
 vendor/bin/jpegtool
@@ -651,7 +678,6 @@ vendor/bin/nvram_daemon
 vendor/bin/starter
 vendor/bin/stp_dump3
 vendor/bin/stroke
-vendor/bin/teei_daemon
 vendor/bin/volte_imcb
 vendor/bin/volte_imsm_93
 vendor/bin/volte_md_status
@@ -703,13 +729,11 @@ vendor/etc/init/init.wod.rc
 vendor/etc/init/init_connectivity.rc
 vendor/etc/init/ipsec_mon.rc
 vendor/etc/init/lbs_hidl_service.rc
-vendor/etc/init/microtrust.rc
 vendor/etc/init/mtkrild.rc
 vendor/etc/init/mtk_agpsd_p.rc
 vendor/etc/init/muxreport.rc
 vendor/etc/init/netdagent.rc
 vendor/etc/init/nvram_daemon.rc
-vendor/etc/init/vendor.microtrust.hardware.capi@2.0-service.rc
 vendor/etc/ipsec/ipsec.conf
 vendor/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootCA.crt
 vendor/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootG2.crt
@@ -917,9 +941,6 @@ vendor/lib/cereus_s5k5e8yx_sunny_mipi_raw_tuning.so
 vendor/lib/fpc_hal_extension.so
 vendor/lib/fpc_tac.so
 vendor/lib/hw/flp.default.so
-vendor/lib/hw/kmsetkey.default.so
-vendor/lib/hw/kmsetkey.mt6765.so
-vendor/lib/hw/libSoftGatekeeper.so
 vendor/lib/libaalservice.so
 vendor/lib/libaal_cust.so
 vendor/lib/libaal_key.so
@@ -958,7 +979,6 @@ vendor/lib/libHEVCdec_sa.ca7.android.so
 vendor/lib/libhevce_sb.ca7.android.so
 vendor/lib/libhwm.so
 vendor/lib/libIMGegl.so
-vendor/lib/libimsg_log.so
 vendor/lib/libion_mtk.so
 vendor/lib/libion_ulit.so
 vendor/lib/libipsec_ims_shr.so
@@ -976,7 +996,6 @@ vendor/lib/libmp4enc_sa.ca7.so
 vendor/lib/libmp4enc_xa.ca7.so
 vendor/lib/libmpvr.so
 vendor/lib/libmsbc_mtk.so
-vendor/lib/libmtee.so
 vendor/lib/libneuropilot_hal_utils.so
 vendor/lib/libnvram.so
 vendor/lib/libnvram_daemon_callback.so
@@ -999,7 +1018,6 @@ vendor/lib/libssl-mdapp.so
 vendor/lib/libstorage_otp.so
 vendor/lib/libSwJpgCodec.so
 vendor/lib/libsysenv.so
-vendor/lib/libTEECommon.so
 vendor/lib/libthha.so
 vendor/lib/libtqvalidate.so
 vendor/lib/libtranslator_mapi_v3.0.so
@@ -1024,7 +1042,6 @@ vendor/lib/libwapi.so
 vendor/lib/libwo.so
 vendor/lib/lib_iir.so
 vendor/lib/lib_speech_enh.so
-vendor/lib/vendor.microtrust.hardware.capi@2.0.so
 vendor/lib64/cactus_hi556_sunny_mipi_raw_IdxMgr.so
 vendor/lib64/cactus_hi556_sunny_mipi_raw_tuning.so
 vendor/lib64/cactus_ov13855_ofilm_mipi_raw_IdxMgr.so
@@ -1046,9 +1063,6 @@ vendor/lib64/cereus_s5k5e8yx_ofilm_mipi_raw_tuning.so
 vendor/lib64/cereus_s5k5e8yx_sunny_mipi_raw_IdxMgr.so
 vendor/lib64/cereus_s5k5e8yx_sunny_mipi_raw_tuning.so
 vendor/lib64/hw/flp.default.so
-vendor/lib64/hw/kmsetkey.default.so
-vendor/lib64/hw/kmsetkey.mt6765.so
-vendor/lib64/hw/libSoftGatekeeper.so
 vendor/lib64/lbs_hidl_service-impl.so
 vendor/lib64/lib3a.ae.core.so
 vendor/lib64/lib3a.ae.so
@@ -1114,14 +1128,12 @@ vendor/lib64/libimageio.so
 vendor/lib64/libimageio_plat_drv.so
 vendor/lib64/libimageio_plat_pipe.so
 vendor/lib64/libIMGegl.so
-vendor/lib64/libimsg_log.so
 vendor/lib64/libion_mtk.so
 vendor/lib64/libion_ulit.so
 vendor/lib64/libipsec_ims_shr.so
 vendor/lib64/libjpeg-alpha-oal_vendor.so
 vendor/lib64/libjpeg-alpha_vendor.so
 vendor/lib64/libJpgEncPipe.so
-vendor/lib64/libkmsetkey.so
 vendor/lib64/libksensor.so
 vendor/lib64/liblpcnr.so
 vendor/lib64/libmemtrack_GL.so
@@ -1131,7 +1143,6 @@ vendor/lib64/libmmprofile.so
 vendor/lib64/libmnetlink_v104.so
 vendor/lib64/libmpvr.so
 vendor/lib64/libmsbc_mtk.so
-vendor/lib64/libmtee.so
 vendor/lib64/libneuropilot_hal_utils.so
 vendor/lib64/libnvram.so
 vendor/lib64/libnvram_daemon_callback.so
@@ -1156,7 +1167,6 @@ vendor/lib64/libssl-mdapp.so
 vendor/lib64/libstereoinfoaccessor_vsdof.so
 vendor/lib64/libstrongswan.so
 vendor/lib64/libsysenv.so
-vendor/lib64/libTEECommon.so
 vendor/lib64/libthha.so
 vendor/lib64/libtqvalidate.so
 vendor/lib64/libtranslator_mapi_v3.0.so
@@ -1174,9 +1184,3 @@ vendor/lib64/libwpfa.so
 vendor/lib64/lib_bsscore.so
 vendor/lib64/lib_iir.so
 vendor/lib64/lib_speech_enh.so
-vendor/lib64/vendor.microtrust.hardware.capi@2.0.so
-vendor/thh/ta/7778c03fc30c4dd0a319ea29643d4d4b.ta
-vendor/thh/ta/8888c03fc30c4dd0a319ea29643d4d4b.ta
-vendor/thh/ta/c09c9c5daa504b78b0e46eda61556c3a.ta
-vendor/thh/ta/c1882f2d885e4e13a8c8e2622461b2fa.ta
-vendor/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta
