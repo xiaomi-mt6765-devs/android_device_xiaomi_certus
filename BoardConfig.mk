@@ -15,5 +15,9 @@ TARGET_CPU_VARIANT_RUNTIME := cortex-a53
 
 TARGET_USES_64_BIT_BINDER := true
 
+# Bootloader
+TARGET_BOOTLOADER_BOARD_NAME := mt6765
+TARGET_NO_BOOTLOADER := true
+
 # Inherit the proprietary files
 include vendor/xiaomi/certus/BoardConfigVendor.mk
