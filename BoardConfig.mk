@@ -61,5 +61,8 @@ TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := 11.x
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 
+# Platform
+TARGET_BOARD_PLATFORM := mt6765
+
 # Inherit the proprietary files
 include vendor/xiaomi/certus/BoardConfigVendor.mk
