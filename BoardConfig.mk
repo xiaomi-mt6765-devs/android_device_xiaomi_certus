@@ -58,5 +58,8 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_INCLUDE_RECOVERY_DTBO := true
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 
+# Platform
+TARGET_BOARD_PLATFORM := mt6765
+
 # Inherit the proprietary files
 include vendor/xiaomi/certus/BoardConfigVendor.mk
