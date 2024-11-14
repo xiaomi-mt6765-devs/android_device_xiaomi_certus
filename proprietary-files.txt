@@ -658,8 +658,6 @@ vendor/lib/vendor.xiaomi.hardware.mtdservice@1.2.so
 vendor/lib/vendor.xiaomi.hardware.vsimapp@1.0.so
 
 # Misc
--vendor/app/IconShapeOverlay/IconShapeOverlay.apk
--vendor/app/WTStandardTest/WTStandardTest.apk
 vendor/bin/aeev
 vendor/bin/aee_aedv
 vendor/bin/aee_archivev
@@ -733,8 +731,6 @@ vendor/bin/wmt_fdb
 vendor/bin/wmt_launcher
 vendor/bin/wmt_loader
 vendor/bin/wmt_loopback
--vendor/data-app/Health/Health.apk
--vendor/data-app/XMRemoteController/XMRemoteController.apk
 vendor/data/misc/pdc.txt
 vendor/data/misc/ProjectConfig.mk
 vendor/etc/.tp/.ht120.mtc
