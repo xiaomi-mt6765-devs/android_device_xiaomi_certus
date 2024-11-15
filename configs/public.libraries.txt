@@ -1,0 +1,7 @@
+libMcClient.so
+libMcRegistry.so
+libneuron_platform.so
+libion_mtk.so
+libvpu.so
+libOpenCL.so
+
