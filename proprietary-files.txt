@@ -714,7 +714,6 @@ vendor/etc/init/init.exfat.rc
 vendor/etc/init/init.fmradio_drv.rc
 vendor/etc/init/init.gps_drv.rc
 vendor/etc/init/init.md_apps.rc
-vendor/etc/init/init.migrate_legacy_props_needed.rc
 vendor/etc/init/init.volte_imcb.rc
 vendor/etc/init/init.volte_imsm_93.rc
 vendor/etc/init/init.volte_stack.rc
