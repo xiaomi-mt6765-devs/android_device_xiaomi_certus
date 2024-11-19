@@ -152,7 +152,7 @@ on post-fs
     chown root system /mnt/vendor/persist
     chmod 0770 /mnt/vendor/persist
     mkdir /mnt/vendor/persist/fdsd 0770 system system
-    restorecon_recursive_force /mnt/vendor/persist
+    restorecon_recursive /mnt/vendor/persist
 
 on post-fs-data
     write /proc/bootprof "INIT:post-fs-data"
