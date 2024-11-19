@@ -425,9 +425,6 @@ vendor/lib/vendor.mediatek.hardware.gnss@1.1.so
 # GPS-Hardware
 
 # Gatekeeper
-vendor/bin/hw/android.hardware.gatekeeper@1.0-service
-vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc
-vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib/hw/gatekeeper.mt6765.so
 
 # Graphics
