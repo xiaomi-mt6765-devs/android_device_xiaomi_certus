@@ -48,5 +48,14 @@ BOARD_MKBOOTIMG_ARGS += --second_offset $(BOARD_KERNEL_SECOND_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --dtb_offset $(BOARD_DTB_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 
+# Kernel
+TARGET_KERNEL_ARCH := arm64
+TARGET_KERNEL_HEADER_ARCH := arm64
+TARGET_KERNEL_SOURCE := kernel/xiaomi/mt6765
+TARGET_KERNEL_CONFIG := certus_defconfig
+TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_KERNEL_CLANG_VERSION := 11.x
+BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
+
 # Inherit the proprietary files
 include vendor/xiaomi/certus/BoardConfigVendor.mk
