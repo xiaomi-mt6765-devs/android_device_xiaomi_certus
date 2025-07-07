@@ -10,6 +10,16 @@ TARGET_SCREEN_WIDTH := 720
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
+# Ramdisk
+PRODUCT_PACKAGES += \
+    init.connectivity.rc \
+    init.modem.rc \
+    init.mt6765.rc \
+    init.mt6765.usb.rc \
+    init.sensor_1_0.rc \
+    fstab.mt6765 \
+    ueventd.mt6765.rc
+
 # Shipping API Level
 PRODUCT_SHIPPING_API_LEVEL := 27
 
