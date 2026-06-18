@@ -42,5 +42,14 @@ BOARD_MKBOOTIMG_ARGS += --second_offset $(BOARD_KERNEL_SECOND_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --dtb_offset $(BOARD_DTB_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 
+# Kernel
+TARGET_KERNEL_ARCH := arm
+TARGET_KERNEL_HEADER_ARCH := arm
+TARGET_KERNEL_SOURCE := kernel/xiaomi/mt6765
+TARGET_KERNEL_CONFIG := cactus_defconfig
+TARGET_KERNEL_USE_GCC := true
+TARGET_KERNEL_CROSS_COMPILE := gcc-linaro-7.5.0
+BOARD_KERNEL_IMAGE_NAME := zImage-dtb
+
 # Inherit the proprietary files
 include vendor/xiaomi/certus/BoardConfigVendor.mk
